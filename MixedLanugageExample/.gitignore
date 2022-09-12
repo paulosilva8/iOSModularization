@@ -4,6 +4,7 @@ xcuserdata/
 Build/
 build/
 DerivedData/
+.idea
 
 ## Obj-C/Swift specific
 *.hmap
