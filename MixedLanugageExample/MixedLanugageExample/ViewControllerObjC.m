@@ -7,8 +7,9 @@
 //
 
 #import "ViewControllerObjC.h"
-#import "MixedLanugageExample-Swift.h"
-#import "LabelObjectiveC.h"
+@import MixObjcSwift;
+@import LabelObjectiveC;
+
 
 @interface ViewControllerObjC ()
 

@@ -1,7 +1,9 @@
 //
-//  Use this file to import your target's public headers that you would like to expose to Swift.
+//  MixedLanugageExample-Bridging-Header.h
+//  MixedLanugageExample
+//
+//  Created by Paulo Silva on 12/09/2022.
+//  Copyright © 2022 GergelyOrosz. All rights reserved.
 //
 
-#import "ComponentObjectiveC.h"
 #import "ViewControllerObjC.h"
-
