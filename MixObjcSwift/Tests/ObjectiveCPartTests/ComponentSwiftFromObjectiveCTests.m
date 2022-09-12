@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "MixedLanugageExampleTests-Swift.h"
+@import SwiftPart;
 
 @interface ComponentSwiftFromObjectiveCTests : XCTestCase
 

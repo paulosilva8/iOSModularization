@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "ComponentObjectiveC.h"
+@import ObjectiveCPart;
 
 @interface ComponentObjectiveCTests : XCTestCase
 

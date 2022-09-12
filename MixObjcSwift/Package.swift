@@ -30,7 +30,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "MixObjcSwift",
-            dependencies: ["ObjectiveCPart", "SwiftPart"]),
+            dependencies: ["ObjectiveCPart"]),
         .target(name: "CoreFramework"),
         .target(name: "ObjectiveCPart", publicHeadersPath: "Public"),
         .target(name: "SwiftPart", dependencies: ["CoreFramework"]),
