@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import ObjectiveCPart
+import ObjectiveCComponent
 
 public class LabelSwift: UILabel {
 

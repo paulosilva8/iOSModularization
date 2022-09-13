@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-@import SwiftPart;
+@import SwiftComponent;
 
 @interface ComponentSwiftFromObjectiveCTests : XCTestCase
 

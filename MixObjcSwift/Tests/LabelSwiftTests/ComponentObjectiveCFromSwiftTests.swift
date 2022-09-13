@@ -7,7 +7,7 @@
 //
 
 import XCTest
-import ObjectiveCPart
+import ObjectiveCComponent
 
 class ComponentObjectiveCFromSwiftTests: XCTestCase {
     

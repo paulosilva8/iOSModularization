@@ -72,8 +72,8 @@
 		2CD5BA2328CF460000B76BD6 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5BA2228CF460000B76BD6 /* R.generated.swift */; };
 		2CD5BA2628CF6CFC00B76BD6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CD5BA2528CF6CFC00B76BD6 /* Info.plist */; };
 		2CF8565928CF7947005F4CBD /* ViewControllerObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF8565828CF7947005F4CBD /* ViewControllerObjC.m */; };
-		2CF8565B28CF7F54005F4CBD /* MixObjcSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2CF8565A28CF7F54005F4CBD /* MixObjcSwift */; };
 		2CF8565D28CF869A005F4CBD /* LabelObjectiveC in Frameworks */ = {isa = PBXBuildFile; productRef = 2CF8565C28CF869A005F4CBD /* LabelObjectiveC */; };
+		2CF8566128D07AB4005F4CBD /* LabelSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2CF8566028D07AB4005F4CBD /* LabelSwift */; };
 		F585378F1B5ABA4800DB2AD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F585378E1B5ABA4800DB2AD2 /* Assets.xcassets */; };
 		F58537921B5ABA4800DB2AD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58537901B5ABA4800DB2AD2 /* LaunchScreen.storyboard */; };
 		F58537A81B5ABA4800DB2AD2 /* MixedLanugageExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F58537A71B5ABA4800DB2AD2 /* MixedLanugageExampleUITests.m */; };
@@ -203,6 +203,7 @@
 				2CD5B9F128CF19C600B76BD6 /* Lottie in Frameworks */,
 				2CD5B9FF28CF1D7F00B76BD6 /* OHHTTPStubsSwift in Frameworks */,
 				2CD5B9EE28CF198900B76BD6 /* FirebaseAnalytics in Frameworks */,
+				2CF8566128D07AB4005F4CBD /* LabelSwift in Frameworks */,
 				2CD5B9D828CF17E300B76BD6 /* Resolver in Frameworks */,
 				2CD5B9FD28CF1D7F00B76BD6 /* OHHTTPStubs in Frameworks */,
 				2CD5B9E228CF183D00B76BD6 /* CocoaLumberjackSwift in Frameworks */,
@@ -211,7 +212,6 @@
 				2CD5B9F428CF1B4000B76BD6 /* Moya in Frameworks */,
 				2CF8565D28CF869A005F4CBD /* LabelObjectiveC in Frameworks */,
 				2CD5B9E528CF186200B76BD6 /* SDWebImage in Frameworks */,
-				2CF8565B28CF7F54005F4CBD /* MixObjcSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,8 +560,8 @@
 				2CD5BA0128CF1DEF00B76BD6 /* OCHamcrest */,
 				2CD5BA1328CF2F2A00B76BD6 /* Charts */,
 				2CD5BA2028CF448000B76BD6 /* Rswift */,
-				2CF8565A28CF7F54005F4CBD /* MixObjcSwift */,
 				2CF8565C28CF869A005F4CBD /* LabelObjectiveC */,
+				2CF8566028D07AB4005F4CBD /* LabelSwift */,
 			);
 			productName = MixedLanugageExample;
 			productReference = F585377F1B5ABA4800DB2AD2 /* MixedLanugageExample.app */;
@@ -1360,13 +1360,13 @@
 			package = 2CD5BA1F28CF448000B76BD6 /* XCRemoteSwiftPackageReference "R.swift" */;
 			productName = Rswift;
 		};
-		2CF8565A28CF7F54005F4CBD /* MixObjcSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = MixObjcSwift;
-		};
 		2CF8565C28CF869A005F4CBD /* LabelObjectiveC */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = LabelObjectiveC;
+		};
+		2CF8566028D07AB4005F4CBD /* LabelSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LabelSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

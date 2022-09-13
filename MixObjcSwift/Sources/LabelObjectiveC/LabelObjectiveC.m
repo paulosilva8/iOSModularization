@@ -7,7 +7,7 @@
 //
 
 #import "LabelObjectiveC.h"
-@import SwiftPart;
+@import SwiftComponent;
 
 @implementation LabelObjectiveC
 

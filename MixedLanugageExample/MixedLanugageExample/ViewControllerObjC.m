@@ -7,7 +7,7 @@
 //
 
 #import "ViewControllerObjC.h"
-@import MixObjcSwift;
+@import LabelSwift;
 @import LabelObjectiveC;
 
 

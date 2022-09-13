@@ -6,46 +6,43 @@ import PackageDescription
 let package = Package(
     name: "MixObjcSwift",
     products: [
-        // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "MixObjcSwift",
-            targets: ["MixObjcSwift"]),
+            name: "LabelSwift",
+            targets: ["LabelSwift"]),
         .library(
             name: "CoreFramework",
             targets: ["CoreFramework"]),
         .library(
-            name: "ObjectiveCPart",
-            targets: ["ObjectiveCPart"]),
+            name: "ObjectiveCComponent",
+            targets: ["ObjectiveCComponent"]),
         .library(
-            name: "SwiftPart",
-            targets: ["SwiftPart"]),
+            name: "SwiftComponent",
+            targets: ["SwiftComponent"]),
         .library(name: "LabelObjectiveC", targets: ["LabelObjectiveC"])
     ],
-    dependencies: [
-        // Dependencies declare other packages that this package depends on.
-        // .package(url: /* package url */, from: "1.0.0"),
-    ],
+    dependencies: [],
     targets: [
-        // Targets are the basic building blocks of a package. A target can define a module or a test suite.
-        // Targets can depend on other targets in this package, and on products in packages this package depends on.
+        // LabelSwift is the entrypoint of the module, from which the ViewControllerObjectiveC calls a Swift UILabel; it has a dependency on an Obj-C component
         .target(
-            name: "MixObjcSwift",
-            dependencies: ["ObjectiveCPart"]),
+            name: "LabelSwift",
+            dependencies: ["ObjectiveCComponent"]),
+        // LabelObjectiveC is the second entrypoint of the module, also called from ViewControllerObjectiveC; it has a dependency on a Swift component
+        .target(name: "LabelObjectiveC", dependencies: ["SwiftComponent"], publicHeadersPath: "Public"),
+        
+        .target(name: "ObjectiveCComponent", publicHeadersPath: "Public"),
+        .target(name: "SwiftComponent", dependencies: ["CoreFramework"]),
         .target(name: "CoreFramework"),
-        .target(name: "ObjectiveCPart", publicHeadersPath: "Public"),
-        .target(name: "SwiftPart", dependencies: ["CoreFramework"]),
         .testTarget(
             name: "CoreFrameworkTests",
             dependencies: ["CoreFramework"]),
         .testTarget(
-            name: "MixObjcSwiftTests",
-            dependencies: ["MixObjcSwift", "ObjectiveCPart"]),
-        .target(name: "LabelObjectiveC", dependencies: ["SwiftPart"], publicHeadersPath: "Public"),
+            name: "LabelSwiftTests",
+            dependencies: ["LabelSwift", "ObjectiveCComponent"]),
         .testTarget(
-            name: "ObjectiveCPartTests",
-            dependencies: ["ObjectiveCPart", "SwiftPart"]),
+            name: "ObjectiveCComponentTests",
+            dependencies: ["ObjectiveCComponent", "SwiftComponent"]),
         .testTarget(
-            name: "SwiftPartTests",
-            dependencies: ["SwiftPart"]),
+            name: "SwiftComponentTests",
+            dependencies: ["SwiftComponent"]),
     ]
 )
