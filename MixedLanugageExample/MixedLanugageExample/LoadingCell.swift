@@ -8,6 +8,7 @@
 
 import UIKit
 import Rswift
+import Search
 
 final class LoadingCell: UITableViewCell {
     private lazy var errorIcon: UIImageView = {
@@ -39,7 +40,7 @@ final class LoadingCell: UITableViewCell {
         errorIcon.isHidden = true
     }
 
-    func searchStatusChanged(_ status: RepositoryListViewModel.SearchStatus) {
+    func searchStatusChanged(_ status: SearchStatus) {
         guard case .fail = status else {
             return
         }

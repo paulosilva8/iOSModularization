@@ -8,4 +8,4 @@
 
 import Foundation
 
-typealias Observer<T> = (T) -> Void
+public typealias Observer<T> = (T) -> Void
