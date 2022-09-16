@@ -24,8 +24,8 @@
 		2C2EE8F428C5FEE4008D3C38 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8F328C5FEE4008D3C38 /* Workout.swift */; };
 		2C2EE8FA28C60554008D3C38 /* UIViewController+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8F928C60554008D3C38 /* UIViewController+SwiftUI.swift */; };
 		2C8C069F28D4845100D31541 /* Details in Frameworks */ = {isa = PBXBuildFile; productRef = 2C8C069E28D4845100D31541 /* Details */; };
+		2C8C06A128D4C42500D31541 /* WorkoutCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8C06A028D4C42500D31541 /* WorkoutCard.swift */; };
 		2CC7FEED28D21CFB0089CA92 /* Search in Frameworks */ = {isa = PBXBuildFile; productRef = 2CC7FEEC28D21CFB0089CA92 /* Search */; };
-		2CC7FF2A28D238820089CA92 /* WorkoutCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7FF2928D238820089CA92 /* WorkoutCard.swift */; };
 		2CC7FF2C28D23B4B0089CA92 /* UIFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7FF2B28D23B4B0089CA92 /* UIFactory.swift */; };
 		2CC7FF2E28D379660089CA92 /* Listing in Frameworks */ = {isa = PBXBuildFile; productRef = 2CC7FF2D28D379660089CA92 /* Listing */; };
 		2CD5B98E28C9FA2000B76BD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5B98D28C9FA2000B76BD6 /* AppDelegate.swift */; };
@@ -110,8 +110,8 @@
 		2C2EE8F128C5FE87008D3C38 /* WorkoutPlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutPlayerVC.swift; sourceTree = "<group>"; };
 		2C2EE8F328C5FEE4008D3C38 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		2C2EE8F928C60554008D3C38 /* UIViewController+SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+SwiftUI.swift"; sourceTree = "<group>"; };
+		2C8C06A028D4C42500D31541 /* WorkoutCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutCard.swift; sourceTree = "<group>"; };
 		2CC7FEE528D20BE90089CA92 /* GithubTab */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = GithubTab; path = ../GithubTab; sourceTree = "<group>"; };
-		2CC7FF2928D238820089CA92 /* WorkoutCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WorkoutCard.swift; path = ../../../../WorkoutCard.swift; sourceTree = "<group>"; };
 		2CC7FF2B28D23B4B0089CA92 /* UIFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFactory.swift; sourceTree = "<group>"; };
 		2CD5B98D28C9FA2000B76BD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CD5B99128C9FA7E00B76BD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -213,12 +213,12 @@
 		2C2EE8E428C5FB93008D3C38 /* Workouts */ = {
 			isa = PBXGroup;
 			children = (
+				2C8C06A028D4C42500D31541 /* WorkoutCard.swift */,
 				2C2EE8E528C5FBA6008D3C38 /* WorkoutsView.swift */,
 				2C2EE8E728C5FC25008D3C38 /* WorkoutsViewModel.swift */,
 				2C2EE8E928C5FC59008D3C38 /* WorkoutsService.swift */,
 				2C2EE8EB28C5FC8A008D3C38 /* WorkoutsService+Live.swift */,
 				2C2EE8ED28C5FCB6008D3C38 /* WorkoutDetail.swift */,
-				2CC7FF2928D238820089CA92 /* WorkoutCard.swift */,
 				2C2EE8F128C5FE87008D3C38 /* WorkoutPlayerVC.swift */,
 				2C2EE8F328C5FEE4008D3C38 /* Workout.swift */,
 			);
@@ -541,13 +541,13 @@
 				2C2EE8FA28C60554008D3C38 /* UIViewController+SwiftUI.swift in Sources */,
 				2CF8565928CF7947005F4CBD /* ViewControllerObjC.m in Sources */,
 				2C2EE8EA28C5FC59008D3C38 /* WorkoutsService.swift in Sources */,
-				2CC7FF2A28D238820089CA92 /* WorkoutCard.swift in Sources */,
 				2CD5BA2328CF460000B76BD6 /* R.generated.swift in Sources */,
 				2CC7FF2C28D23B4B0089CA92 /* UIFactory.swift in Sources */,
 				2C2EE8E828C5FC25008D3C38 /* WorkoutsViewModel.swift in Sources */,
 				2C2EE8F428C5FEE4008D3C38 /* Workout.swift in Sources */,
 				2C2EE88B28C2020A008D3C38 /* MoreVC.swift in Sources */,
 				2C2EE8EE28C5FCB6008D3C38 /* WorkoutDetail.swift in Sources */,
+				2C8C06A128D4C42500D31541 /* WorkoutCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
