@@ -1,4 +1,4 @@
-// swift-tools-version: 5.7
+// swift-tools-version: 5.6
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -6,15 +6,19 @@ import PackageDescription
 
 let package = Package(
     name: "GithubTab",
+    platforms: [.iOS(.v14)],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "Search",
             targets: ["Search"]),
+        .library(
+            name: "Listing",
+            targets: ["Listing"]),
     ],
     dependencies: [
-        // Dependencies declare other packages that this package depends on.
-        // .package(url: /* package url */, from: "1.0.0"),
+        .package(url: "https://github.com/mac-cain13/R.swift.Library", from: "5.4.0"),
+        .package(url: "https://github.com/quentinfasquel/R.swift.Plugin", from: "5.4.0")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -22,6 +26,15 @@ let package = Package(
         .target(
             name: "Search",
             dependencies: []),
+        .target(
+            name: "Listing",
+            dependencies: [
+                .product(name: "Rswift", package: "R.swift.Library")
+            ],
+            plugins: [
+                .plugin(name: "RswiftPlugin", package: "R.swift.Plugin")
+            ]
+        ),
         .testTarget(
             name: "SearchTests",
             dependencies: ["Search"]),

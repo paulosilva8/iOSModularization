@@ -2,7 +2,7 @@
 //  GitHubSearchModel.swift
 //  MixedLanugageExample
 //
-//  Created by Paulo Silva on 15/09/2022.
+//  Created by Paulo Silva on 02/09/2022.
 //  Copyright © 2022 GergelyOrosz. All rights reserved.
 //
 

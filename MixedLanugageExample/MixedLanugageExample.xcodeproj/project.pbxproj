@@ -14,45 +14,31 @@
 		2C2EE7D928BE5BA0008D3C38 /* ShareAppExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2C2EE7CB28BE5BA0008D3C38 /* ShareAppExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2C2EE88928C201FE008D3C38 /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE88828C201FE008D3C38 /* HistoryVC.swift */; };
 		2C2EE88B28C2020A008D3C38 /* MoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE88A28C2020A008D3C38 /* MoreVC.swift */; };
-		2C2EE88E28C20450008D3C38 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE88D28C20450008D3C38 /* APIManager.swift */; };
-		2C2EE89028C20473008D3C38 /* GitHubResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE88F28C20473008D3C38 /* GitHubResource.swift */; };
-		2C2EE89228C204A4008D3C38 /* GitHubSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE89128C204A4008D3C38 /* GitHubSearchResponse.swift */; };
-		2C2EE89828C20531008D3C38 /* RefreshController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE89728C20531008D3C38 /* RefreshController.swift */; };
-		2C2EE89E28C2061C008D3C38 /* HorizontalDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE89D28C2061C008D3C38 /* HorizontalDivider.swift */; };
-		2C2EE8A128C2068C008D3C38 /* UIFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8A028C2068C008D3C38 /* UIFactory.swift */; };
 		2C2EE8A828C20770008D3C38 /* LabelValueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8A728C20770008D3C38 /* LabelValueCell.swift */; };
 		2C2EE8AA28C20803008D3C38 /* RepositoryDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8A928C20803008D3C38 /* RepositoryDetailsViewController.swift */; };
 		2C2EE8AC28C20851008D3C38 /* LabelValueCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8AB28C20851008D3C38 /* LabelValueCellViewModel.swift */; };
 		2C2EE8AE28C20877008D3C38 /* RepositoryDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8AD28C20877008D3C38 /* RepositoryDetailsViewModel.swift */; };
-		2C2EE8B328C20A24008D3C38 /* RepositoryListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8B228C20A24008D3C38 /* RepositoryListRouter.swift */; };
-		2C2EE8B528C20A4C008D3C38 /* LoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8B428C20A4C008D3C38 /* LoadingCell.swift */; };
-		2C2EE8B728C20AA0008D3C38 /* RepositoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8B628C20AA0008D3C38 /* RepositoryListViewController.swift */; };
-		2C2EE8B928C20AE8008D3C38 /* SearchListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8B828C20AE8008D3C38 /* SearchListCell.swift */; };
-		2C2EE8BD28C20B4A008D3C38 /* SearchListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8BC28C20B4A008D3C38 /* SearchListCellViewModel.swift */; };
-		2C2EE8C028C20B91008D3C38 /* Array+Subscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8BF28C20B91008D3C38 /* Array+Subscript.swift */; };
-		2C2EE8C228C20BD2008D3C38 /* JSONDecoder+DateStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8C128C20BD2008D3C38 /* JSONDecoder+DateStrategy.swift */; };
-		2C2EE8C628C20C14008D3C38 /* UITableViewCell+ReuseIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8C528C20C14008D3C38 /* UITableViewCell+ReuseIdentifier.swift */; };
-		2C2EE8C928C20C40008D3C38 /* GitHubSearchItem+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8C828C20C40008D3C38 /* GitHubSearchItem+ViewModel.swift */; };
-		2C2EE8CB28C20C53008D3C38 /* GitHubSearchResponse+DomainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8CA28C20C53008D3C38 /* GitHubSearchResponse+DomainModel.swift */; };
-		2C2EE8CE28C20CD6008D3C38 /* GitHubSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8CD28C20CD6008D3C38 /* GitHubSearchModel.swift */; };
-		2C2EE8D128C20D05008D3C38 /* GitHubSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8D028C20D05008D3C38 /* GitHubSearchService.swift */; };
-		2C2EE8D428C20D56008D3C38 /* SharedNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8D328C20D56008D3C38 /* SharedNumberFormatter.swift */; };
 		2C2EE8DF28C237F7008D3C38 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8DE28C237F7008D3C38 /* CustomTabBarController.swift */; };
 		2C2EE8E628C5FBA6008D3C38 /* WorkoutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8E528C5FBA6008D3C38 /* WorkoutsView.swift */; };
 		2C2EE8E828C5FC25008D3C38 /* WorkoutsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8E728C5FC25008D3C38 /* WorkoutsViewModel.swift */; };
 		2C2EE8EA28C5FC59008D3C38 /* WorkoutsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8E928C5FC59008D3C38 /* WorkoutsService.swift */; };
 		2C2EE8EC28C5FC8A008D3C38 /* WorkoutsService+Live.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8EB28C5FC8A008D3C38 /* WorkoutsService+Live.swift */; };
 		2C2EE8EE28C5FCB6008D3C38 /* WorkoutDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8ED28C5FCB6008D3C38 /* WorkoutDetail.swift */; };
-		2C2EE8F028C5FCD2008D3C38 /* WorkoutCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8EF28C5FCD2008D3C38 /* WorkoutCard.swift */; };
 		2C2EE8F228C5FE87008D3C38 /* WorkoutPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8F128C5FE87008D3C38 /* WorkoutPlayerVC.swift */; };
 		2C2EE8F428C5FEE4008D3C38 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8F328C5FEE4008D3C38 /* Workout.swift */; };
 		2C2EE8FA28C60554008D3C38 /* UIViewController+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8F928C60554008D3C38 /* UIViewController+SwiftUI.swift */; };
-		2CC7FEE728D21A490089CA92 /* RepositoryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7FEE628D21A490089CA92 /* RepositoryListViewModel.swift */; };
 		2CC7FEED28D21CFB0089CA92 /* Search in Frameworks */ = {isa = PBXBuildFile; productRef = 2CC7FEEC28D21CFB0089CA92 /* Search */; };
+		2CC7FF2A28D238820089CA92 /* WorkoutCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7FF2928D238820089CA92 /* WorkoutCard.swift */; };
+		2CC7FF2C28D23B4B0089CA92 /* UIFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7FF2B28D23B4B0089CA92 /* UIFactory.swift */; };
+		2CC7FF2E28D379660089CA92 /* Listing in Frameworks */ = {isa = PBXBuildFile; productRef = 2CC7FF2D28D379660089CA92 /* Listing */; };
+		2CC7FF3228D37A9A0089CA92 /* HorizontalDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7FF3128D37A9A0089CA92 /* HorizontalDivider.swift */; };
+		2CC7FF3828D37BA80089CA92 /* Array+Subscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7FF3728D37BA80089CA92 /* Array+Subscript.swift */; };
+		2CC7FF3A28D37BCB0089CA92 /* UITableViewCell+ReuseIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7FF3928D37BCB0089CA92 /* UITableViewCell+ReuseIdentifier.swift */; };
+		2CC7FF3D28D37BFA0089CA92 /* GitHubSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7FF3C28D37BFA0089CA92 /* GitHubSearchModel.swift */; };
+		2CC7FF3F28D37C240089CA92 /* SharedDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7FF3E28D37C240089CA92 /* SharedDateFormatter.swift */; };
 		2CD5B98E28C9FA2000B76BD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5B98D28C9FA2000B76BD6 /* AppDelegate.swift */; };
 		2CD5B99228C9FA7E00B76BD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5B99128C9FA7E00B76BD6 /* SceneDelegate.swift */; };
 		2CD5B9D028CA228200B76BD6 /* AppDelegate+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5B9CF28CA228200B76BD6 /* AppDelegate+Injection.swift */; };
-		2CD5B9D228CA233F00B76BD6 /* APIServices+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5B9D128CA233F00B76BD6 /* APIServices+Injection.swift */; };
 		2CD5B9D828CF17E300B76BD6 /* Resolver in Frameworks */ = {isa = PBXBuildFile; productRef = 2CD5B9D728CF17E300B76BD6 /* Resolver */; };
 		2CD5B9E028CF183D00B76BD6 /* CocoaLumberjack in Frameworks */ = {isa = PBXBuildFile; productRef = 2CD5B9DF28CF183D00B76BD6 /* CocoaLumberjack */; };
 		2CD5B9E228CF183D00B76BD6 /* CocoaLumberjackSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2CD5B9E128CF183D00B76BD6 /* CocoaLumberjackSwift */; };
@@ -123,45 +109,30 @@
 		2C2EE7D628BE5BA0008D3C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C2EE88828C201FE008D3C38 /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
 		2C2EE88A28C2020A008D3C38 /* MoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreVC.swift; sourceTree = "<group>"; };
-		2C2EE88D28C20450008D3C38 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
-		2C2EE88F28C20473008D3C38 /* GitHubResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubResource.swift; sourceTree = "<group>"; };
-		2C2EE89128C204A4008D3C38 /* GitHubSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubSearchResponse.swift; sourceTree = "<group>"; };
-		2C2EE89728C20531008D3C38 /* RefreshController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshController.swift; sourceTree = "<group>"; };
-		2C2EE89D28C2061C008D3C38 /* HorizontalDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalDivider.swift; sourceTree = "<group>"; };
-		2C2EE8A028C2068C008D3C38 /* UIFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFactory.swift; sourceTree = "<group>"; };
 		2C2EE8A728C20770008D3C38 /* LabelValueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelValueCell.swift; sourceTree = "<group>"; };
 		2C2EE8A928C20803008D3C38 /* RepositoryDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryDetailsViewController.swift; sourceTree = "<group>"; };
 		2C2EE8AB28C20851008D3C38 /* LabelValueCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelValueCellViewModel.swift; sourceTree = "<group>"; };
 		2C2EE8AD28C20877008D3C38 /* RepositoryDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryDetailsViewModel.swift; sourceTree = "<group>"; };
-		2C2EE8B228C20A24008D3C38 /* RepositoryListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListRouter.swift; sourceTree = "<group>"; };
-		2C2EE8B428C20A4C008D3C38 /* LoadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCell.swift; sourceTree = "<group>"; };
-		2C2EE8B628C20AA0008D3C38 /* RepositoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListViewController.swift; sourceTree = "<group>"; };
-		2C2EE8B828C20AE8008D3C38 /* SearchListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListCell.swift; sourceTree = "<group>"; };
-		2C2EE8BC28C20B4A008D3C38 /* SearchListCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListCellViewModel.swift; sourceTree = "<group>"; };
-		2C2EE8BF28C20B91008D3C38 /* Array+Subscript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Subscript.swift"; sourceTree = "<group>"; };
-		2C2EE8C128C20BD2008D3C38 /* JSONDecoder+DateStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+DateStrategy.swift"; sourceTree = "<group>"; };
-		2C2EE8C528C20C14008D3C38 /* UITableViewCell+ReuseIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+ReuseIdentifier.swift"; sourceTree = "<group>"; };
-		2C2EE8C828C20C40008D3C38 /* GitHubSearchItem+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GitHubSearchItem+ViewModel.swift"; sourceTree = "<group>"; };
-		2C2EE8CA28C20C53008D3C38 /* GitHubSearchResponse+DomainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GitHubSearchResponse+DomainModel.swift"; sourceTree = "<group>"; };
-		2C2EE8CD28C20CD6008D3C38 /* GitHubSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubSearchModel.swift; sourceTree = "<group>"; };
-		2C2EE8D028C20D05008D3C38 /* GitHubSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubSearchService.swift; sourceTree = "<group>"; };
-		2C2EE8D328C20D56008D3C38 /* SharedNumberFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedNumberFormatter.swift; sourceTree = "<group>"; };
 		2C2EE8DE28C237F7008D3C38 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		2C2EE8E528C5FBA6008D3C38 /* WorkoutsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsView.swift; sourceTree = "<group>"; };
 		2C2EE8E728C5FC25008D3C38 /* WorkoutsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsViewModel.swift; sourceTree = "<group>"; };
 		2C2EE8E928C5FC59008D3C38 /* WorkoutsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsService.swift; sourceTree = "<group>"; };
 		2C2EE8EB28C5FC8A008D3C38 /* WorkoutsService+Live.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WorkoutsService+Live.swift"; sourceTree = "<group>"; };
 		2C2EE8ED28C5FCB6008D3C38 /* WorkoutDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetail.swift; sourceTree = "<group>"; };
-		2C2EE8EF28C5FCD2008D3C38 /* WorkoutCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCard.swift; sourceTree = "<group>"; };
 		2C2EE8F128C5FE87008D3C38 /* WorkoutPlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutPlayerVC.swift; sourceTree = "<group>"; };
 		2C2EE8F328C5FEE4008D3C38 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		2C2EE8F928C60554008D3C38 /* UIViewController+SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+SwiftUI.swift"; sourceTree = "<group>"; };
 		2CC7FEE528D20BE90089CA92 /* GithubTab */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = GithubTab; path = ../GithubTab; sourceTree = "<group>"; };
-		2CC7FEE628D21A490089CA92 /* RepositoryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListViewModel.swift; sourceTree = "<group>"; };
+		2CC7FF2928D238820089CA92 /* WorkoutCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WorkoutCard.swift; path = ../../../../WorkoutCard.swift; sourceTree = "<group>"; };
+		2CC7FF2B28D23B4B0089CA92 /* UIFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFactory.swift; sourceTree = "<group>"; };
+		2CC7FF3128D37A9A0089CA92 /* HorizontalDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalDivider.swift; sourceTree = "<group>"; };
+		2CC7FF3728D37BA80089CA92 /* Array+Subscript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Subscript.swift"; sourceTree = "<group>"; };
+		2CC7FF3928D37BCB0089CA92 /* UITableViewCell+ReuseIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+ReuseIdentifier.swift"; sourceTree = "<group>"; };
+		2CC7FF3C28D37BFA0089CA92 /* GitHubSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubSearchModel.swift; sourceTree = "<group>"; };
+		2CC7FF3E28D37C240089CA92 /* SharedDateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedDateFormatter.swift; sourceTree = "<group>"; };
 		2CD5B98D28C9FA2000B76BD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CD5B99128C9FA7E00B76BD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2CD5B9CF28CA228200B76BD6 /* AppDelegate+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Injection.swift"; sourceTree = "<group>"; };
-		2CD5B9D128CA233F00B76BD6 /* APIServices+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIServices+Injection.swift"; sourceTree = "<group>"; };
 		2CD5BA2228CF460000B76BD6 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		2CD5BA2428CF6BBA00B76BD6 /* MixObjcSwift */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MixObjcSwift; path = ../MixObjcSwift; sourceTree = "<group>"; };
 		2CD5BA2528CF6CFC00B76BD6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../MixObjcSwift/Tests/MixObjcSwiftTests/Info.plist; sourceTree = "<group>"; };
@@ -192,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CD5BA2128CF448000B76BD6 /* Rswift in Frameworks */,
+				2CC7FF2E28D379660089CA92 /* Listing in Frameworks */,
 				2CD5B9E828CF18E500B76BD6 /* AppAuth in Frameworks */,
 				2CD5B9E028CF183D00B76BD6 /* CocoaLumberjack in Frameworks */,
 				2CD5B9F128CF19C600B76BD6 /* Lottie in Frameworks */,
@@ -246,62 +218,9 @@
 			path = ShareAppExtension;
 			sourceTree = "<group>";
 		};
-		2C2EE88C28C2043F008D3C38 /* API */ = {
-			isa = PBXGroup;
-			children = (
-				2C2EE88D28C20450008D3C38 /* APIManager.swift */,
-				2C2EE88F28C20473008D3C38 /* GitHubResource.swift */,
-				2C2EE89128C204A4008D3C38 /* GitHubSearchResponse.swift */,
-				2CD5B9D128CA233F00B76BD6 /* APIServices+Injection.swift */,
-			);
-			name = API;
-			sourceTree = "<group>";
-		};
-		2C2EE89328C204D9008D3C38 /* Component */ = {
-			isa = PBXGroup;
-			children = (
-				2C2EE89628C204F9008D3C38 /* Separator */,
-				2C2EE89528C204F3008D3C38 /* Search */,
-				2C2EE89428C204EA008D3C38 /* Refresh */,
-			);
-			name = Component;
-			sourceTree = "<group>";
-		};
-		2C2EE89428C204EA008D3C38 /* Refresh */ = {
-			isa = PBXGroup;
-			children = (
-				2C2EE89728C20531008D3C38 /* RefreshController.swift */,
-			);
-			name = Refresh;
-			sourceTree = "<group>";
-		};
-		2C2EE89528C204F3008D3C38 /* Search */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Search;
-			sourceTree = "<group>";
-		};
-		2C2EE89628C204F9008D3C38 /* Separator */ = {
-			isa = PBXGroup;
-			children = (
-				2C2EE89D28C2061C008D3C38 /* HorizontalDivider.swift */,
-			);
-			name = Separator;
-			sourceTree = "<group>";
-		};
-		2C2EE89F28C2067F008D3C38 /* Composer */ = {
-			isa = PBXGroup;
-			children = (
-				2C2EE8A028C2068C008D3C38 /* UIFactory.swift */,
-			);
-			name = Composer;
-			sourceTree = "<group>";
-		};
 		2C2EE8A228C206EA008D3C38 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
-				2C2EE8A428C206FD008D3C38 /* RepositoryList */,
 				2C2EE8A328C206F3008D3C38 /* RepositoryDetails */,
 			);
 			name = Feature;
@@ -314,35 +233,6 @@
 				2C2EE8AF28C208B0008D3C38 /* View */,
 			);
 			name = RepositoryDetails;
-			sourceTree = "<group>";
-		};
-		2C2EE8A428C206FD008D3C38 /* RepositoryList */ = {
-			isa = PBXGroup;
-			children = (
-				2C2EE8B128C20A0F008D3C38 /* Router */,
-				2C2EE8A628C20718008D3C38 /* ViewModel */,
-				2C2EE8A528C20711008D3C38 /* View */,
-			);
-			name = RepositoryList;
-			sourceTree = "<group>";
-		};
-		2C2EE8A528C20711008D3C38 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				2C2EE8B428C20A4C008D3C38 /* LoadingCell.swift */,
-				2C2EE8B628C20AA0008D3C38 /* RepositoryListViewController.swift */,
-				2C2EE8B828C20AE8008D3C38 /* SearchListCell.swift */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		2C2EE8A628C20718008D3C38 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				2CC7FEE628D21A490089CA92 /* RepositoryListViewModel.swift */,
-				2C2EE8BC28C20B4A008D3C38 /* SearchListCellViewModel.swift */,
-			);
-			name = ViewModel;
 			sourceTree = "<group>";
 		};
 		2C2EE8AF28C208B0008D3C38 /* View */ = {
@@ -363,54 +253,11 @@
 			name = ViewModel;
 			sourceTree = "<group>";
 		};
-		2C2EE8B128C20A0F008D3C38 /* Router */ = {
-			isa = PBXGroup;
-			children = (
-				2C2EE8B228C20A24008D3C38 /* RepositoryListRouter.swift */,
-			);
-			name = Router;
-			sourceTree = "<group>";
-		};
-		2C2EE8BE28C20B7A008D3C38 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				2C2EE8BF28C20B91008D3C38 /* Array+Subscript.swift */,
-				2C2EE8C128C20BD2008D3C38 /* JSONDecoder+DateStrategy.swift */,
-				2C2EE8C528C20C14008D3C38 /* UITableViewCell+ReuseIdentifier.swift */,
-			);
-			name = Helpers;
-			sourceTree = "<group>";
-		};
-		2C2EE8C728C20C2A008D3C38 /* Mappers */ = {
-			isa = PBXGroup;
-			children = (
-				2C2EE8C828C20C40008D3C38 /* GitHubSearchItem+ViewModel.swift */,
-				2C2EE8CA28C20C53008D3C38 /* GitHubSearchResponse+DomainModel.swift */,
-			);
-			name = Mappers;
-			sourceTree = "<group>";
-		};
-		2C2EE8CC28C20CC1008D3C38 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				2C2EE8CD28C20CD6008D3C38 /* GitHubSearchModel.swift */,
-			);
-			name = Models;
-			sourceTree = "<group>";
-		};
-		2C2EE8CF28C20CF5008D3C38 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				2C2EE8D028C20D05008D3C38 /* GitHubSearchService.swift */,
-			);
-			name = Services;
-			sourceTree = "<group>";
-		};
 		2C2EE8D228C20D41008D3C38 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				2C2EE8D328C20D56008D3C38 /* SharedNumberFormatter.swift */,
 				2C2EE8F928C60554008D3C38 /* UIViewController+SwiftUI.swift */,
+				2CC7FF3E28D37C240089CA92 /* SharedDateFormatter.swift */,
 			);
 			name = Shared;
 			sourceTree = "<group>";
@@ -423,11 +270,52 @@
 				2C2EE8E928C5FC59008D3C38 /* WorkoutsService.swift */,
 				2C2EE8EB28C5FC8A008D3C38 /* WorkoutsService+Live.swift */,
 				2C2EE8ED28C5FCB6008D3C38 /* WorkoutDetail.swift */,
-				2C2EE8EF28C5FCD2008D3C38 /* WorkoutCard.swift */,
+				2CC7FF2928D238820089CA92 /* WorkoutCard.swift */,
 				2C2EE8F128C5FE87008D3C38 /* WorkoutPlayerVC.swift */,
 				2C2EE8F328C5FEE4008D3C38 /* Workout.swift */,
 			);
 			name = Workouts;
+			sourceTree = "<group>";
+		};
+		2CC7FF2F28D37A760089CA92 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Component;
+			sourceTree = "<group>";
+		};
+		2CC7FF3028D37A840089CA92 /* Separator */ = {
+			isa = PBXGroup;
+			children = (
+				2CC7FF3128D37A9A0089CA92 /* HorizontalDivider.swift */,
+			);
+			name = Separator;
+			sourceTree = "<group>";
+		};
+		2CC7FF3328D37ABE0089CA92 /* Composition */ = {
+			isa = PBXGroup;
+			children = (
+				2CC7FF2B28D23B4B0089CA92 /* UIFactory.swift */,
+				2CC7FF3028D37A840089CA92 /* Separator */,
+			);
+			name = Composition;
+			sourceTree = "<group>";
+		};
+		2CC7FF3628D37B990089CA92 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2CC7FF3728D37BA80089CA92 /* Array+Subscript.swift */,
+				2CC7FF3928D37BCB0089CA92 /* UITableViewCell+ReuseIdentifier.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		2CC7FF3B28D37BE30089CA92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2CC7FF3C28D37BFA0089CA92 /* GitHubSearchModel.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		F58537761B5ABA4800DB2AD2 = {
@@ -458,17 +346,14 @@
 		F58537811B5ABA4800DB2AD2 /* MixedLanugageExample */ = {
 			isa = PBXGroup;
 			children = (
+				2CC7FF3B28D37BE30089CA92 /* Model */,
+				2CC7FF3628D37B990089CA92 /* Helpers */,
+				2CC7FF3328D37ABE0089CA92 /* Composition */,
+				2CC7FF2F28D37A760089CA92 /* Component */,
 				2CD5BA2228CF460000B76BD6 /* R.generated.swift */,
 				2C2EE8E428C5FB93008D3C38 /* Workouts */,
 				2C2EE8D228C20D41008D3C38 /* Shared */,
-				2C2EE8CF28C20CF5008D3C38 /* Services */,
-				2C2EE8CC28C20CC1008D3C38 /* Models */,
-				2C2EE8C728C20C2A008D3C38 /* Mappers */,
-				2C2EE8BE28C20B7A008D3C38 /* Helpers */,
 				2C2EE8A228C206EA008D3C38 /* Feature */,
-				2C2EE89F28C2067F008D3C38 /* Composer */,
-				2C2EE89328C204D9008D3C38 /* Component */,
-				2C2EE88C28C2043F008D3C38 /* API */,
 				F58537931B5ABA4800DB2AD2 /* Info.plist */,
 				F58537901B5ABA4800DB2AD2 /* LaunchScreen.storyboard */,
 				F585378E1B5ABA4800DB2AD2 /* Assets.xcassets */,
@@ -555,6 +440,7 @@
 				2CF8565C28CF869A005F4CBD /* LabelObjectiveC */,
 				2CF8566028D07AB4005F4CBD /* LabelSwift */,
 				2CC7FEEC28D21CFB0089CA92 /* Search */,
+				2CC7FF2D28D379660089CA92 /* Listing */,
 			);
 			productName = MixedLanugageExample;
 			productReference = F585377F1B5ABA4800DB2AD2 /* MixedLanugageExample.app */;
@@ -735,44 +621,29 @@
 				2CD5B9D028CA228200B76BD6 /* AppDelegate+Injection.swift in Sources */,
 				2CD5B99228C9FA7E00B76BD6 /* SceneDelegate.swift in Sources */,
 				2CD5B98E28C9FA2000B76BD6 /* AppDelegate.swift in Sources */,
-				2C2EE8C928C20C40008D3C38 /* GitHubSearchItem+ViewModel.swift in Sources */,
-				2CD5B9D228CA233F00B76BD6 /* APIServices+Injection.swift in Sources */,
 				2C2EE8AE28C20877008D3C38 /* RepositoryDetailsViewModel.swift in Sources */,
-				2CC7FEE728D21A490089CA92 /* RepositoryListViewModel.swift in Sources */,
-				2C2EE89028C20473008D3C38 /* GitHubResource.swift in Sources */,
 				2C2EE8EC28C5FC8A008D3C38 /* WorkoutsService+Live.swift in Sources */,
 				2C2EE8E628C5FBA6008D3C38 /* WorkoutsView.swift in Sources */,
-				2C2EE88E28C20450008D3C38 /* APIManager.swift in Sources */,
-				2C2EE8C028C20B91008D3C38 /* Array+Subscript.swift in Sources */,
 				2C2EE8F228C5FE87008D3C38 /* WorkoutPlayerVC.swift in Sources */,
-				2C2EE8B728C20AA0008D3C38 /* RepositoryListViewController.swift in Sources */,
-				2C2EE89828C20531008D3C38 /* RefreshController.swift in Sources */,
-				2C2EE8D128C20D05008D3C38 /* GitHubSearchService.swift in Sources */,
-				2C2EE8F028C5FCD2008D3C38 /* WorkoutCard.swift in Sources */,
-				2C2EE8B928C20AE8008D3C38 /* SearchListCell.swift in Sources */,
 				2C2EE8A828C20770008D3C38 /* LabelValueCell.swift in Sources */,
-				2C2EE89228C204A4008D3C38 /* GitHubSearchResponse.swift in Sources */,
-				2C2EE8C628C20C14008D3C38 /* UITableViewCell+ReuseIdentifier.swift in Sources */,
 				2C2EE88928C201FE008D3C38 /* HistoryVC.swift in Sources */,
 				2C2EE8DF28C237F7008D3C38 /* CustomTabBarController.swift in Sources */,
 				2C2EE8FA28C60554008D3C38 /* UIViewController+SwiftUI.swift in Sources */,
-				2C2EE89E28C2061C008D3C38 /* HorizontalDivider.swift in Sources */,
-				2C2EE8D428C20D56008D3C38 /* SharedNumberFormatter.swift in Sources */,
-				2C2EE8CE28C20CD6008D3C38 /* GitHubSearchModel.swift in Sources */,
-				2C2EE8CB28C20C53008D3C38 /* GitHubSearchResponse+DomainModel.swift in Sources */,
+				2CC7FF3228D37A9A0089CA92 /* HorizontalDivider.swift in Sources */,
 				2CF8565928CF7947005F4CBD /* ViewControllerObjC.m in Sources */,
-				2C2EE8A128C2068C008D3C38 /* UIFactory.swift in Sources */,
 				2C2EE8EA28C5FC59008D3C38 /* WorkoutsService.swift in Sources */,
+				2CC7FF2A28D238820089CA92 /* WorkoutCard.swift in Sources */,
+				2CC7FF3A28D37BCB0089CA92 /* UITableViewCell+ReuseIdentifier.swift in Sources */,
+				2CC7FF3F28D37C240089CA92 /* SharedDateFormatter.swift in Sources */,
 				2CD5BA2328CF460000B76BD6 /* R.generated.swift in Sources */,
-				2C2EE8C228C20BD2008D3C38 /* JSONDecoder+DateStrategy.swift in Sources */,
-				2C2EE8B528C20A4C008D3C38 /* LoadingCell.swift in Sources */,
+				2CC7FF2C28D23B4B0089CA92 /* UIFactory.swift in Sources */,
+				2CC7FF3D28D37BFA0089CA92 /* GitHubSearchModel.swift in Sources */,
+				2CC7FF3828D37BA80089CA92 /* Array+Subscript.swift in Sources */,
 				2C2EE8E828C5FC25008D3C38 /* WorkoutsViewModel.swift in Sources */,
 				2C2EE8AA28C20803008D3C38 /* RepositoryDetailsViewController.swift in Sources */,
 				2C2EE8F428C5FEE4008D3C38 /* Workout.swift in Sources */,
 				2C2EE88B28C2020A008D3C38 /* MoreVC.swift in Sources */,
 				2C2EE8EE28C5FCB6008D3C38 /* WorkoutDetail.swift in Sources */,
-				2C2EE8B328C20A24008D3C38 /* RepositoryListRouter.swift in Sources */,
-				2C2EE8BD28C20B4A008D3C38 /* SearchListCellViewModel.swift in Sources */,
 				2C2EE8AC28C20851008D3C38 /* LabelValueCellViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1274,6 +1145,10 @@
 		2CC7FEEC28D21CFB0089CA92 /* Search */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Search;
+		};
+		2CC7FF2D28D379660089CA92 /* Listing */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Listing;
 		};
 		2CD5B9D728CF17E300B76BD6 /* Resolver */ = {
 			isa = XCSwiftPackageProductDependency;
