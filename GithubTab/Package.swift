@@ -17,29 +17,40 @@ let package = Package(
             targets: ["Listing"]),
         .library(name: "Details",
             targets: ["Details"]),
-        .library(name: "UIComponents", targets: ["UIComponents"])
+        .library(name: "UIComponents", targets: ["UIComponents"]),
+        .library(name: "Utilities", targets: ["Utilities"])
     ],
     dependencies: [
         .package(url: "https://github.com/mac-cain13/R.swift.Library", from: "5.4.0"),
-        .package(url: "https://github.com/quentinfasquel/R.swift.Plugin", from: "5.4.0")
+        .package(url: "https://github.com/quentinfasquel/R.swift.Plugin", from: "5.4.0"),
+        .package(url: "https://github.com/hmlongco/Resolver.git", from: "1.5.0")
     ],
     targets: [
         .target(
             name: "Search",
-            dependencies: []),
+            dependencies: ["Utilities"]),
         .target(
             name: "Listing",
             dependencies: [
+                .product(name: "Resolver", package: "Resolver"),
                 .product(name: "Rswift", package: "R.swift.Library"),
                 "Search",
-                "UIComponents"
+                "UIComponents",
+                "Utilities"
             ],
             plugins: [
                 .plugin(name: "RswiftPlugin", package: "R.swift.Plugin")
             ]
         ),
-        .target(name: "Details", dependencies: ["UIComponents"]),
-        .target(name: "UIComponents"),
+        .target(
+            name: "Details",
+            dependencies: ["UIComponents", "Utilities"]
+        ),
+        .target(
+            name: "UIComponents",
+            dependencies: ["Utilities"]
+        ),
+        .target(name: "Utilities"),
         .testTarget(
             name: "SearchTests",
             dependencies: ["Search"]),

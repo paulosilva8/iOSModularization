@@ -8,6 +8,7 @@
 
 import Foundation
 import Resolver
+import Utilities
 
 final class GithubSearchService {
     @Injected private var apiManager: APIManager

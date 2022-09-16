@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import Search
+import Utilities
 
 final class RepositoryListViewModel {
 

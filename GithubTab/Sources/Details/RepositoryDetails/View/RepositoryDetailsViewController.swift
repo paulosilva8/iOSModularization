@@ -24,7 +24,7 @@ public final class RepositoryDetailsViewController: UIViewController {
 
     private let viewModel: RepositoryDetailsViewModel
 
-    public init(viewModel: RepositoryDetailsViewModel) {
+    init(viewModel: RepositoryDetailsViewModel) {
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
     }

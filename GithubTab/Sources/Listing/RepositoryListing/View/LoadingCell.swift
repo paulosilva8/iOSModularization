@@ -8,7 +8,7 @@
 
 import UIKit
 import Rswift
-import Search
+import Utilities
 
 final class LoadingCell: UITableViewCell {
     private lazy var errorIcon: UIImageView = {

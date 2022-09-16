@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Utilities
 
 public final class UIFactory {
     private init() {}

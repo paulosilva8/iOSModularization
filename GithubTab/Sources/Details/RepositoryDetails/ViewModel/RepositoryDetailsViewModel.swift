@@ -6,9 +6,10 @@
 //
 
 import Foundation
+import Utilities
 
-public final class RepositoryDetailsViewModel {
-    public enum CellViewModel {
+final class RepositoryDetailsViewModel {
+    enum CellViewModel {
         case name(value: String)
         case owner(value: String)
         case description(value: String)
@@ -101,7 +102,7 @@ public final class RepositoryDetailsViewModel {
     private let tableData: [CellViewModel]
     private let item: GithubSearchModel.Item
 
-    public init(item: GithubSearchModel.Item) {
+    init(item: GithubSearchModel.Item) {
         self.item = item
         self.tableData = [
             .name(value: item.name),

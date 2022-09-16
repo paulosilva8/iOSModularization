@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Search
+import Utilities
 
 public final class RefreshController: NSObject {
     public var onRefresh: (() -> Void)?

@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Utilities
 
 extension GithubSearchResponse {
     var searchModel: GithubSearchModel {
