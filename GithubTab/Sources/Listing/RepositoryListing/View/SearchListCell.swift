@@ -8,6 +8,7 @@
 
 import UIKit
 import Rswift
+import UIComponents
 
 final class SearchListCell: UITableViewCell {
     private lazy var titleLabel: UILabel = {

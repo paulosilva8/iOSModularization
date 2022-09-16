@@ -17,6 +17,7 @@ let package = Package(
             targets: ["Listing"]),
         .library(name: "Details",
             targets: ["Details"]),
+        .library(name: "UIComponents", targets: ["UIComponents"])
     ],
     dependencies: [
         .package(url: "https://github.com/mac-cain13/R.swift.Library", from: "5.4.0"),
@@ -29,13 +30,16 @@ let package = Package(
         .target(
             name: "Listing",
             dependencies: [
-                .product(name: "Rswift", package: "R.swift.Library")
+                .product(name: "Rswift", package: "R.swift.Library"),
+                "Search",
+                "UIComponents"
             ],
             plugins: [
                 .plugin(name: "RswiftPlugin", package: "R.swift.Plugin")
             ]
         ),
-        .target(name: "Details"),
+        .target(name: "Details", dependencies: ["UIComponents"]),
+        .target(name: "UIComponents"),
         .testTarget(
             name: "SearchTests",
             dependencies: ["Search"]),

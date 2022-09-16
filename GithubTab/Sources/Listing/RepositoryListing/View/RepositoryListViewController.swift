@@ -8,6 +8,7 @@
 
 import UIKit
 import Search
+import UIComponents
 
 public final class RepositoryListViewController: UIViewController {
     private lazy var githubSearchController: GithubSearchController = {

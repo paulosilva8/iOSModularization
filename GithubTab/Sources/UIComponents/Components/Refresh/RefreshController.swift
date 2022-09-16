@@ -9,8 +9,8 @@
 import UIKit
 import Search
 
-final class RefreshController: NSObject {
-    var onRefresh: (() -> Void)?
+public final class RefreshController: NSObject {
+    public var onRefresh: (() -> Void)?
 
     private lazy var refreshControl: UIRefreshControl = {
         let refreshControl = UIRefreshControl()
@@ -18,7 +18,7 @@ final class RefreshController: NSObject {
         return refreshControl
     }()
 
-    init(tableView: UITableView) {
+    public init(tableView: UITableView) {
         super.init()
         tableView.refreshControl = refreshControl
     }
@@ -27,7 +27,7 @@ final class RefreshController: NSObject {
         onRefresh?()
     }
 
-    func searchStatusChanged(_ status: SearchStatus) {
+    public func searchStatusChanged(_ status: SearchStatus) {
         switch status {
         case .wait:
             break

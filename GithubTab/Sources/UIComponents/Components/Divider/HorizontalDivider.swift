@@ -8,14 +8,14 @@
 
 import UIKit
 
-final class HorizontalDivider: UIView {
-    var height: CGFloat = 1 {
+public final class HorizontalDivider: UIView {
+    public var height: CGFloat = 1 {
         didSet {
             layer.cornerRadius = height / 2
         }
     }
 
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         setupView()
     }
@@ -28,7 +28,7 @@ final class HorizontalDivider: UIView {
         backgroundColor = UIColor.gray
     }
 
-    override var intrinsicContentSize: CGSize {
+    public override var intrinsicContentSize: CGSize {
         CGSize(width: UIView.noIntrinsicMetric, height: height)
     }
 }

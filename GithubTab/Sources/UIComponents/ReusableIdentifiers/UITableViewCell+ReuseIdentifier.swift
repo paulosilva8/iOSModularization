@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UITableViewCell {
+public extension UITableViewCell {
     static var reuseIdentifier: String {
         String(describing: self)
     }

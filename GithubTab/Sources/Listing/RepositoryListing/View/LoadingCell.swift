@@ -15,7 +15,7 @@ final class LoadingCell: UITableViewCell {
         let imageView = UIImageView(image: R.image.listing_xmark())
         //let imageView = UIImageView(image: UIImage(contentsOfFile: ""))
         imageView.tintColor = .red
-        imageView.isHidden = false
+        imageView.isHidden = true
         return imageView
     }()
 
@@ -34,12 +34,11 @@ final class LoadingCell: UITableViewCell {
     }
 
     func configure() {
-//        guard !loadingIndicator.isAnimating else {
-//            return
-//        }
-        //loadingIndicator.startAnimating()
-        loadingIndicator.isHidden = true
-        errorIcon.isHidden = false
+        guard !loadingIndicator.isAnimating else {
+            return
+        }
+        loadingIndicator.startAnimating()
+        errorIcon.isHidden = true
     }
 
     func searchStatusChanged(_ status: SearchStatus) {
@@ -50,12 +49,12 @@ final class LoadingCell: UITableViewCell {
     }
 
     private func setupView() {
-//        contentView.addSubview(loadingIndicator)
-//        loadingIndicator.translatesAutoresizingMaskIntoConstraints = false
-//        NSLayoutConstraint.activate([
-//            loadingIndicator.centerXAnchor.constraint(equalTo: contentView.centerXAnchor),
-//            loadingIndicator.centerYAnchor.constraint(equalTo: contentView.centerYAnchor)
-//        ])
+        contentView.addSubview(loadingIndicator)
+        loadingIndicator.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            loadingIndicator.centerXAnchor.constraint(equalTo: contentView.centerXAnchor),
+            loadingIndicator.centerYAnchor.constraint(equalTo: contentView.centerYAnchor)
+        ])
         contentView.addSubview(errorIcon)
         errorIcon.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
