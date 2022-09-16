@@ -1,15 +1,14 @@
 //
-//  RepositoryDetailsViewModel.swift
-//  MixedLanugageExample
+//  File.swift
+//  
 //
-//  Created by Paulo Silva on 02/09/2022.
-//  Copyright © 2022 GergelyOrosz. All rights reserved.
+//  Created by Paulo Silva on 16/09/2022.
 //
 
 import Foundation
 
-final class RepositoryDetailsViewModel {
-    enum CellViewModel {
+public final class RepositoryDetailsViewModel {
+    public enum CellViewModel {
         case name(value: String)
         case owner(value: String)
         case description(value: String)
@@ -102,7 +101,7 @@ final class RepositoryDetailsViewModel {
     private let tableData: [CellViewModel]
     private let item: GithubSearchModel.Item
 
-    init(item: GithubSearchModel.Item) {
+    public init(item: GithubSearchModel.Item) {
         self.item = item
         self.tableData = [
             .name(value: item.name),

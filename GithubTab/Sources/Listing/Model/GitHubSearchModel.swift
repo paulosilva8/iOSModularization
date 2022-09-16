@@ -8,11 +8,11 @@
 
 import Foundation
 
-struct GithubSearchModel {
+public struct GithubSearchModel {
     var total: Int
     var items: [Item]
 
-    struct Item {
+    public struct Item {
         var id: Int
         var name: String
         var owner: String

@@ -1,9 +1,8 @@
 //
-//  HorizontalDivider.swift
-//  MixedLanugageExample
+//  File.swift
+//  
 //
-//  Created by Paulo Silva on 15/09/2022.
-//  Copyright © 2022 GergelyOrosz. All rights reserved.
+//  Created by Paulo Silva on 16/09/2022.
 //
 
 import UIKit

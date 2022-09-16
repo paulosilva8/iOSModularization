@@ -14,10 +14,6 @@
 		2C2EE7D928BE5BA0008D3C38 /* ShareAppExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2C2EE7CB28BE5BA0008D3C38 /* ShareAppExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2C2EE88928C201FE008D3C38 /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE88828C201FE008D3C38 /* HistoryVC.swift */; };
 		2C2EE88B28C2020A008D3C38 /* MoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE88A28C2020A008D3C38 /* MoreVC.swift */; };
-		2C2EE8A828C20770008D3C38 /* LabelValueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8A728C20770008D3C38 /* LabelValueCell.swift */; };
-		2C2EE8AA28C20803008D3C38 /* RepositoryDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8A928C20803008D3C38 /* RepositoryDetailsViewController.swift */; };
-		2C2EE8AC28C20851008D3C38 /* LabelValueCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8AB28C20851008D3C38 /* LabelValueCellViewModel.swift */; };
-		2C2EE8AE28C20877008D3C38 /* RepositoryDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8AD28C20877008D3C38 /* RepositoryDetailsViewModel.swift */; };
 		2C2EE8DF28C237F7008D3C38 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8DE28C237F7008D3C38 /* CustomTabBarController.swift */; };
 		2C2EE8E628C5FBA6008D3C38 /* WorkoutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8E528C5FBA6008D3C38 /* WorkoutsView.swift */; };
 		2C2EE8E828C5FC25008D3C38 /* WorkoutsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8E728C5FC25008D3C38 /* WorkoutsViewModel.swift */; };
@@ -27,15 +23,11 @@
 		2C2EE8F228C5FE87008D3C38 /* WorkoutPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8F128C5FE87008D3C38 /* WorkoutPlayerVC.swift */; };
 		2C2EE8F428C5FEE4008D3C38 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8F328C5FEE4008D3C38 /* Workout.swift */; };
 		2C2EE8FA28C60554008D3C38 /* UIViewController+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8F928C60554008D3C38 /* UIViewController+SwiftUI.swift */; };
+		2C8C069F28D4845100D31541 /* Details in Frameworks */ = {isa = PBXBuildFile; productRef = 2C8C069E28D4845100D31541 /* Details */; };
 		2CC7FEED28D21CFB0089CA92 /* Search in Frameworks */ = {isa = PBXBuildFile; productRef = 2CC7FEEC28D21CFB0089CA92 /* Search */; };
 		2CC7FF2A28D238820089CA92 /* WorkoutCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7FF2928D238820089CA92 /* WorkoutCard.swift */; };
 		2CC7FF2C28D23B4B0089CA92 /* UIFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7FF2B28D23B4B0089CA92 /* UIFactory.swift */; };
 		2CC7FF2E28D379660089CA92 /* Listing in Frameworks */ = {isa = PBXBuildFile; productRef = 2CC7FF2D28D379660089CA92 /* Listing */; };
-		2CC7FF3228D37A9A0089CA92 /* HorizontalDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7FF3128D37A9A0089CA92 /* HorizontalDivider.swift */; };
-		2CC7FF3828D37BA80089CA92 /* Array+Subscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7FF3728D37BA80089CA92 /* Array+Subscript.swift */; };
-		2CC7FF3A28D37BCB0089CA92 /* UITableViewCell+ReuseIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7FF3928D37BCB0089CA92 /* UITableViewCell+ReuseIdentifier.swift */; };
-		2CC7FF3D28D37BFA0089CA92 /* GitHubSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7FF3C28D37BFA0089CA92 /* GitHubSearchModel.swift */; };
-		2CC7FF3F28D37C240089CA92 /* SharedDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7FF3E28D37C240089CA92 /* SharedDateFormatter.swift */; };
 		2CD5B98E28C9FA2000B76BD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5B98D28C9FA2000B76BD6 /* AppDelegate.swift */; };
 		2CD5B99228C9FA7E00B76BD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5B99128C9FA7E00B76BD6 /* SceneDelegate.swift */; };
 		2CD5B9D028CA228200B76BD6 /* AppDelegate+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5B9CF28CA228200B76BD6 /* AppDelegate+Injection.swift */; };
@@ -109,10 +101,6 @@
 		2C2EE7D628BE5BA0008D3C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C2EE88828C201FE008D3C38 /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
 		2C2EE88A28C2020A008D3C38 /* MoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreVC.swift; sourceTree = "<group>"; };
-		2C2EE8A728C20770008D3C38 /* LabelValueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelValueCell.swift; sourceTree = "<group>"; };
-		2C2EE8A928C20803008D3C38 /* RepositoryDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryDetailsViewController.swift; sourceTree = "<group>"; };
-		2C2EE8AB28C20851008D3C38 /* LabelValueCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelValueCellViewModel.swift; sourceTree = "<group>"; };
-		2C2EE8AD28C20877008D3C38 /* RepositoryDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryDetailsViewModel.swift; sourceTree = "<group>"; };
 		2C2EE8DE28C237F7008D3C38 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		2C2EE8E528C5FBA6008D3C38 /* WorkoutsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsView.swift; sourceTree = "<group>"; };
 		2C2EE8E728C5FC25008D3C38 /* WorkoutsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsViewModel.swift; sourceTree = "<group>"; };
@@ -125,11 +113,6 @@
 		2CC7FEE528D20BE90089CA92 /* GithubTab */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = GithubTab; path = ../GithubTab; sourceTree = "<group>"; };
 		2CC7FF2928D238820089CA92 /* WorkoutCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WorkoutCard.swift; path = ../../../../WorkoutCard.swift; sourceTree = "<group>"; };
 		2CC7FF2B28D23B4B0089CA92 /* UIFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFactory.swift; sourceTree = "<group>"; };
-		2CC7FF3128D37A9A0089CA92 /* HorizontalDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalDivider.swift; sourceTree = "<group>"; };
-		2CC7FF3728D37BA80089CA92 /* Array+Subscript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Subscript.swift"; sourceTree = "<group>"; };
-		2CC7FF3928D37BCB0089CA92 /* UITableViewCell+ReuseIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+ReuseIdentifier.swift"; sourceTree = "<group>"; };
-		2CC7FF3C28D37BFA0089CA92 /* GitHubSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubSearchModel.swift; sourceTree = "<group>"; };
-		2CC7FF3E28D37C240089CA92 /* SharedDateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedDateFormatter.swift; sourceTree = "<group>"; };
 		2CD5B98D28C9FA2000B76BD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CD5B99128C9FA7E00B76BD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2CD5B9CF28CA228200B76BD6 /* AppDelegate+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Injection.swift"; sourceTree = "<group>"; };
@@ -177,6 +160,7 @@
 				2CD5BA0228CF1DEF00B76BD6 /* OCHamcrest in Frameworks */,
 				2CC7FEED28D21CFB0089CA92 /* Search in Frameworks */,
 				2CD5B9F428CF1B4000B76BD6 /* Moya in Frameworks */,
+				2C8C069F28D4845100D31541 /* Details in Frameworks */,
 				2CF8565D28CF869A005F4CBD /* LabelObjectiveC in Frameworks */,
 				2CD5B9E528CF186200B76BD6 /* SDWebImage in Frameworks */,
 			);
@@ -218,46 +202,10 @@
 			path = ShareAppExtension;
 			sourceTree = "<group>";
 		};
-		2C2EE8A228C206EA008D3C38 /* Feature */ = {
-			isa = PBXGroup;
-			children = (
-				2C2EE8A328C206F3008D3C38 /* RepositoryDetails */,
-			);
-			name = Feature;
-			sourceTree = "<group>";
-		};
-		2C2EE8A328C206F3008D3C38 /* RepositoryDetails */ = {
-			isa = PBXGroup;
-			children = (
-				2C2EE8B028C208B9008D3C38 /* ViewModel */,
-				2C2EE8AF28C208B0008D3C38 /* View */,
-			);
-			name = RepositoryDetails;
-			sourceTree = "<group>";
-		};
-		2C2EE8AF28C208B0008D3C38 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				2C2EE8A728C20770008D3C38 /* LabelValueCell.swift */,
-				2C2EE8A928C20803008D3C38 /* RepositoryDetailsViewController.swift */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		2C2EE8B028C208B9008D3C38 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				2C2EE8AD28C20877008D3C38 /* RepositoryDetailsViewModel.swift */,
-				2C2EE8AB28C20851008D3C38 /* LabelValueCellViewModel.swift */,
-			);
-			name = ViewModel;
-			sourceTree = "<group>";
-		};
 		2C2EE8D228C20D41008D3C38 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
 				2C2EE8F928C60554008D3C38 /* UIViewController+SwiftUI.swift */,
-				2CC7FF3E28D37C240089CA92 /* SharedDateFormatter.swift */,
 			);
 			name = Shared;
 			sourceTree = "<group>";
@@ -277,45 +225,12 @@
 			name = Workouts;
 			sourceTree = "<group>";
 		};
-		2CC7FF2F28D37A760089CA92 /* Component */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Component;
-			sourceTree = "<group>";
-		};
-		2CC7FF3028D37A840089CA92 /* Separator */ = {
-			isa = PBXGroup;
-			children = (
-				2CC7FF3128D37A9A0089CA92 /* HorizontalDivider.swift */,
-			);
-			name = Separator;
-			sourceTree = "<group>";
-		};
 		2CC7FF3328D37ABE0089CA92 /* Composition */ = {
 			isa = PBXGroup;
 			children = (
 				2CC7FF2B28D23B4B0089CA92 /* UIFactory.swift */,
-				2CC7FF3028D37A840089CA92 /* Separator */,
 			);
 			name = Composition;
-			sourceTree = "<group>";
-		};
-		2CC7FF3628D37B990089CA92 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				2CC7FF3728D37BA80089CA92 /* Array+Subscript.swift */,
-				2CC7FF3928D37BCB0089CA92 /* UITableViewCell+ReuseIdentifier.swift */,
-			);
-			name = Helpers;
-			sourceTree = "<group>";
-		};
-		2CC7FF3B28D37BE30089CA92 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				2CC7FF3C28D37BFA0089CA92 /* GitHubSearchModel.swift */,
-			);
-			name = Model;
 			sourceTree = "<group>";
 		};
 		F58537761B5ABA4800DB2AD2 = {
@@ -346,14 +261,10 @@
 		F58537811B5ABA4800DB2AD2 /* MixedLanugageExample */ = {
 			isa = PBXGroup;
 			children = (
-				2CC7FF3B28D37BE30089CA92 /* Model */,
-				2CC7FF3628D37B990089CA92 /* Helpers */,
 				2CC7FF3328D37ABE0089CA92 /* Composition */,
-				2CC7FF2F28D37A760089CA92 /* Component */,
 				2CD5BA2228CF460000B76BD6 /* R.generated.swift */,
 				2C2EE8E428C5FB93008D3C38 /* Workouts */,
 				2C2EE8D228C20D41008D3C38 /* Shared */,
-				2C2EE8A228C206EA008D3C38 /* Feature */,
 				F58537931B5ABA4800DB2AD2 /* Info.plist */,
 				F58537901B5ABA4800DB2AD2 /* LaunchScreen.storyboard */,
 				F585378E1B5ABA4800DB2AD2 /* Assets.xcassets */,
@@ -441,6 +352,7 @@
 				2CF8566028D07AB4005F4CBD /* LabelSwift */,
 				2CC7FEEC28D21CFB0089CA92 /* Search */,
 				2CC7FF2D28D379660089CA92 /* Listing */,
+				2C8C069E28D4845100D31541 /* Details */,
 			);
 			productName = MixedLanugageExample;
 			productReference = F585377F1B5ABA4800DB2AD2 /* MixedLanugageExample.app */;
@@ -621,30 +533,21 @@
 				2CD5B9D028CA228200B76BD6 /* AppDelegate+Injection.swift in Sources */,
 				2CD5B99228C9FA7E00B76BD6 /* SceneDelegate.swift in Sources */,
 				2CD5B98E28C9FA2000B76BD6 /* AppDelegate.swift in Sources */,
-				2C2EE8AE28C20877008D3C38 /* RepositoryDetailsViewModel.swift in Sources */,
 				2C2EE8EC28C5FC8A008D3C38 /* WorkoutsService+Live.swift in Sources */,
 				2C2EE8E628C5FBA6008D3C38 /* WorkoutsView.swift in Sources */,
 				2C2EE8F228C5FE87008D3C38 /* WorkoutPlayerVC.swift in Sources */,
-				2C2EE8A828C20770008D3C38 /* LabelValueCell.swift in Sources */,
 				2C2EE88928C201FE008D3C38 /* HistoryVC.swift in Sources */,
 				2C2EE8DF28C237F7008D3C38 /* CustomTabBarController.swift in Sources */,
 				2C2EE8FA28C60554008D3C38 /* UIViewController+SwiftUI.swift in Sources */,
-				2CC7FF3228D37A9A0089CA92 /* HorizontalDivider.swift in Sources */,
 				2CF8565928CF7947005F4CBD /* ViewControllerObjC.m in Sources */,
 				2C2EE8EA28C5FC59008D3C38 /* WorkoutsService.swift in Sources */,
 				2CC7FF2A28D238820089CA92 /* WorkoutCard.swift in Sources */,
-				2CC7FF3A28D37BCB0089CA92 /* UITableViewCell+ReuseIdentifier.swift in Sources */,
-				2CC7FF3F28D37C240089CA92 /* SharedDateFormatter.swift in Sources */,
 				2CD5BA2328CF460000B76BD6 /* R.generated.swift in Sources */,
 				2CC7FF2C28D23B4B0089CA92 /* UIFactory.swift in Sources */,
-				2CC7FF3D28D37BFA0089CA92 /* GitHubSearchModel.swift in Sources */,
-				2CC7FF3828D37BA80089CA92 /* Array+Subscript.swift in Sources */,
 				2C2EE8E828C5FC25008D3C38 /* WorkoutsViewModel.swift in Sources */,
-				2C2EE8AA28C20803008D3C38 /* RepositoryDetailsViewController.swift in Sources */,
 				2C2EE8F428C5FEE4008D3C38 /* Workout.swift in Sources */,
 				2C2EE88B28C2020A008D3C38 /* MoreVC.swift in Sources */,
 				2C2EE8EE28C5FCB6008D3C38 /* WorkoutDetail.swift in Sources */,
-				2C2EE8AC28C20851008D3C38 /* LabelValueCellViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1142,6 +1045,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		2C8C069E28D4845100D31541 /* Details */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Details;
+		};
 		2CC7FEEC28D21CFB0089CA92 /* Search */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Search;

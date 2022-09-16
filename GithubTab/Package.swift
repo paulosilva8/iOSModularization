@@ -15,14 +15,14 @@ let package = Package(
         .library(
             name: "Listing",
             targets: ["Listing"]),
+        .library(name: "Details",
+            targets: ["Details"]),
     ],
     dependencies: [
         .package(url: "https://github.com/mac-cain13/R.swift.Library", from: "5.4.0"),
         .package(url: "https://github.com/quentinfasquel/R.swift.Plugin", from: "5.4.0")
     ],
     targets: [
-        // Targets are the basic building blocks of a package. A target can define a module or a test suite.
-        // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "Search",
             dependencies: []),
@@ -35,6 +35,7 @@ let package = Package(
                 .plugin(name: "RswiftPlugin", package: "R.swift.Plugin")
             ]
         ),
+        .target(name: "Details"),
         .testTarget(
             name: "SearchTests",
             dependencies: ["Search"]),
