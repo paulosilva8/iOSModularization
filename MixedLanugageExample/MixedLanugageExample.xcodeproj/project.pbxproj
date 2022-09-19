@@ -23,6 +23,8 @@
 		2C2EE8F228C5FE87008D3C38 /* WorkoutPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8F128C5FE87008D3C38 /* WorkoutPlayerVC.swift */; };
 		2C2EE8F428C5FEE4008D3C38 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8F328C5FEE4008D3C38 /* Workout.swift */; };
 		2C2EE8FA28C60554008D3C38 /* UIViewController+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8F928C60554008D3C38 /* UIViewController+SwiftUI.swift */; };
+		2C4CCD8728D881CA005828D0 /* RepositoryListRouterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4CCD8628D881CA005828D0 /* RepositoryListRouterDelegate.swift */; };
+		2C4CCD8F28D888CB005828D0 /* Utilities in Frameworks */ = {isa = PBXBuildFile; productRef = 2C4CCD8E28D888CB005828D0 /* Utilities */; };
 		2C8C069F28D4845100D31541 /* Details in Frameworks */ = {isa = PBXBuildFile; productRef = 2C8C069E28D4845100D31541 /* Details */; };
 		2C8C06A128D4C42500D31541 /* WorkoutCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8C06A028D4C42500D31541 /* WorkoutCard.swift */; };
 		2CC7FEED28D21CFB0089CA92 /* Search in Frameworks */ = {isa = PBXBuildFile; productRef = 2CC7FEEC28D21CFB0089CA92 /* Search */; };
@@ -110,6 +112,7 @@
 		2C2EE8F128C5FE87008D3C38 /* WorkoutPlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutPlayerVC.swift; sourceTree = "<group>"; };
 		2C2EE8F328C5FEE4008D3C38 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		2C2EE8F928C60554008D3C38 /* UIViewController+SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+SwiftUI.swift"; sourceTree = "<group>"; };
+		2C4CCD8628D881CA005828D0 /* RepositoryListRouterDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListRouterDelegate.swift; sourceTree = "<group>"; };
 		2C8C06A028D4C42500D31541 /* WorkoutCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutCard.swift; sourceTree = "<group>"; };
 		2CC7FEE528D20BE90089CA92 /* GithubTab */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = GithubTab; path = ../GithubTab; sourceTree = "<group>"; };
 		2CC7FF2B28D23B4B0089CA92 /* UIFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFactory.swift; sourceTree = "<group>"; };
@@ -153,6 +156,7 @@
 				2CD5B9FF28CF1D7F00B76BD6 /* OHHTTPStubsSwift in Frameworks */,
 				2CD5B9EE28CF198900B76BD6 /* FirebaseAnalytics in Frameworks */,
 				2CF8566128D07AB4005F4CBD /* LabelSwift in Frameworks */,
+				2C4CCD8F28D888CB005828D0 /* Utilities in Frameworks */,
 				2CD5B9D828CF17E300B76BD6 /* Resolver in Frameworks */,
 				2CD5B9FD28CF1D7F00B76BD6 /* OHHTTPStubs in Frameworks */,
 				2CD5B9E228CF183D00B76BD6 /* CocoaLumberjackSwift in Frameworks */,
@@ -229,6 +233,7 @@
 			isa = PBXGroup;
 			children = (
 				2CC7FF2B28D23B4B0089CA92 /* UIFactory.swift */,
+				2C4CCD8628D881CA005828D0 /* RepositoryListRouterDelegate.swift */,
 			);
 			name = Composition;
 			sourceTree = "<group>";
@@ -353,6 +358,7 @@
 				2CC7FEEC28D21CFB0089CA92 /* Search */,
 				2CC7FF2D28D379660089CA92 /* Listing */,
 				2C8C069E28D4845100D31541 /* Details */,
+				2C4CCD8E28D888CB005828D0 /* Utilities */,
 			);
 			productName = MixedLanugageExample;
 			productReference = F585377F1B5ABA4800DB2AD2 /* MixedLanugageExample.app */;
@@ -533,6 +539,7 @@
 				2CD5B9D028CA228200B76BD6 /* AppDelegate+Injection.swift in Sources */,
 				2CD5B99228C9FA7E00B76BD6 /* SceneDelegate.swift in Sources */,
 				2CD5B98E28C9FA2000B76BD6 /* AppDelegate.swift in Sources */,
+				2C4CCD8728D881CA005828D0 /* RepositoryListRouterDelegate.swift in Sources */,
 				2C2EE8EC28C5FC8A008D3C38 /* WorkoutsService+Live.swift in Sources */,
 				2C2EE8E628C5FBA6008D3C38 /* WorkoutsView.swift in Sources */,
 				2C2EE8F228C5FE87008D3C38 /* WorkoutPlayerVC.swift in Sources */,
@@ -1045,6 +1052,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		2C4CCD8E28D888CB005828D0 /* Utilities */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Utilities;
+		};
 		2C8C069E28D4845100D31541 /* Details */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Details;

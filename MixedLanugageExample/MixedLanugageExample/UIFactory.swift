@@ -11,10 +11,16 @@ import Listing
 
 final class UIFactory {
     private init() {}
+    
     static func repositoryListViewController() -> RepositoryListViewController {
-        Listing.UIFactory.repositoryListViewController()
+        let delegate = RepositoryListRouterDelegate()
+        return Listing.UIFactory.repositoryListViewController(delegate: delegate)
     }
-//    static func repositoryDetailsViewController(
+    
+//    static func repositoryListViewController() -> RepositoryListViewController {
+//        Listing.UIFactory.repositoryListViewController()
+//    }
+////    static func repositoryDetailsViewController(
 //        item: GithubSearchModel.Item
 //    ) -> RepositoryDetailsViewController {
 //        let viewModel = RepositoryDetailsViewModel(

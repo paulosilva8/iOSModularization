@@ -12,9 +12,14 @@ import Utilities
 
 final class RepositoryListRouter {
     weak var viewController: UIViewController?
+    
+    var delegate: RepositoryListRouterDelegate
+    
+    init(delegate: RepositoryListRouterDelegate) {
+        self.delegate = delegate
+    }
 
     func showRepositoryDetailsPage(with item: GithubSearchModel.Item) {
-//        let detailsViewController = UIFactory.repositoryDetailsViewController(item: item)
-//        viewController?.show(detailsViewController, sender: nil)
+        delegate.showRepositoryDetailsView(item: item, viewController: viewController)
     }
 }
