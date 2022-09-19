@@ -9,7 +9,7 @@
 import UIKit
 import CoreFramework
 
-@objcMembers public class ComponentSwift: NSObject {
+@objcMembers public final class ComponentSwift: NSObject {
     
     public override init() {
         

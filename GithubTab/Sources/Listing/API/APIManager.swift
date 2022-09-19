@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Resolver
 
 final class APIManager {
     //static let shared = APIManager()

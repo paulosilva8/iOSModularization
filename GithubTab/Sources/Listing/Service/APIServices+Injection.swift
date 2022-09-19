@@ -11,5 +11,6 @@ import Resolver
 extension Resolver {
     public static func registerAPIServices() {
         register { APIManager() }.scope(.application)
+        register { ClassExternal(name: "NAME") as ClassExternalProtocol}
     }
 }

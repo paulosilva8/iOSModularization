@@ -8,13 +8,20 @@
 
 import UIKit
 import Listing
+import Resolver
 
 final class UIFactory {
+    @Injected private var externalClass: ClassExternalProtocol
     private init() {}
     
     static func repositoryListViewController() -> RepositoryListViewController {
+        UIFactory().createExternal()
         let delegate = RepositoryListRouterDelegate()
         return Listing.UIFactory.repositoryListViewController(delegate: delegate)
+    }
+    
+    func createExternal() {
+        externalClass.printName()
     }
     
 //    static func repositoryListViewController() -> RepositoryListViewController {

@@ -7,6 +7,6 @@
 
 import Foundation
 
-public class CoreDummy {
+public final class CoreDummy {
     public init() {}
 }

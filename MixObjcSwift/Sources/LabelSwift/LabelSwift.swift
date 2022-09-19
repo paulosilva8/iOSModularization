@@ -9,7 +9,7 @@
 import UIKit
 import ObjectiveCComponent
 
-public class LabelSwift: UILabel {
+public final class LabelSwift: UILabel {
 
     required public init(coder aDecoder: NSCoder) {
         super.init(coder:aDecoder)!

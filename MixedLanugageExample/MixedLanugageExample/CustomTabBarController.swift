@@ -9,8 +9,7 @@
 import UIKit
 import SwiftUI
 
-
-class CustomTabBarController: UITabBarController {
+final class CustomTabBarController: UITabBarController {
     private let workoutsVC: UIViewController = UIHostingController<WorkoutsView>(rootView: WorkoutsView(viewModel: .init(service: .live)))
     
     override func viewDidLoad() {
