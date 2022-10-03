@@ -38,6 +38,9 @@ let package = Package(
                 "UIComponents",
                 "Utilities"
             ],
+            resources: [
+                .process("Sources/Listing/Resources/**")
+            ],
             plugins: [
                 .plugin(name: "RswiftPlugin", package: "R.swift.Plugin")
             ]

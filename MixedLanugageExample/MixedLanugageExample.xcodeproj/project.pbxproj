@@ -12,27 +12,31 @@
 		2C2EE7D228BE5BA0008D3C38 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE7D128BE5BA0008D3C38 /* ActionViewController.swift */; };
 		2C2EE7D528BE5BA0008D3C38 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EE7D328BE5BA0008D3C38 /* MainInterface.storyboard */; };
 		2C2EE7D928BE5BA0008D3C38 /* ShareAppExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2C2EE7CB28BE5BA0008D3C38 /* ShareAppExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		2C2EE88928C201FE008D3C38 /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE88828C201FE008D3C38 /* HistoryVC.swift */; };
-		2C2EE88B28C2020A008D3C38 /* MoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE88A28C2020A008D3C38 /* MoreVC.swift */; };
-		2C2EE8DF28C237F7008D3C38 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8DE28C237F7008D3C38 /* CustomTabBarController.swift */; };
-		2C2EE8E628C5FBA6008D3C38 /* WorkoutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8E528C5FBA6008D3C38 /* WorkoutsView.swift */; };
-		2C2EE8E828C5FC25008D3C38 /* WorkoutsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8E728C5FC25008D3C38 /* WorkoutsViewModel.swift */; };
-		2C2EE8EA28C5FC59008D3C38 /* WorkoutsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8E928C5FC59008D3C38 /* WorkoutsService.swift */; };
-		2C2EE8EC28C5FC8A008D3C38 /* WorkoutsService+Live.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8EB28C5FC8A008D3C38 /* WorkoutsService+Live.swift */; };
-		2C2EE8EE28C5FCB6008D3C38 /* WorkoutDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8ED28C5FCB6008D3C38 /* WorkoutDetail.swift */; };
-		2C2EE8F228C5FE87008D3C38 /* WorkoutPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8F128C5FE87008D3C38 /* WorkoutPlayerVC.swift */; };
-		2C2EE8F428C5FEE4008D3C38 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8F328C5FEE4008D3C38 /* Workout.swift */; };
-		2C2EE8FA28C60554008D3C38 /* UIViewController+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EE8F928C60554008D3C38 /* UIViewController+SwiftUI.swift */; };
-		2C4CCD8728D881CA005828D0 /* RepositoryListRouterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4CCD8628D881CA005828D0 /* RepositoryListRouterDelegate.swift */; };
 		2C4CCD8F28D888CB005828D0 /* Utilities in Frameworks */ = {isa = PBXBuildFile; productRef = 2C4CCD8E28D888CB005828D0 /* Utilities */; };
+		2C53461D28E7188500D1949D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C53461C28E7188500D1949D /* Assets.xcassets */; };
+		2C53462128E7189000D1949D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C53461F28E7189000D1949D /* LaunchScreen.storyboard */; };
+		2C53462628E718CC00D1949D /* AppDelegate+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53462228E718CC00D1949D /* AppDelegate+Injection.swift */; };
+		2C53462728E718CC00D1949D /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53462328E718CC00D1949D /* HistoryVC.swift */; };
+		2C53462828E718CC00D1949D /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53462428E718CC00D1949D /* CustomTabBarController.swift */; };
+		2C53462928E718CC00D1949D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53462528E718CC00D1949D /* AppDelegate.swift */; };
+		2C53463A28E718E500D1949D /* WorkoutsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53462A28E718E000D1949D /* WorkoutsService.swift */; };
+		2C53463B28E718E500D1949D /* MoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53462B28E718E000D1949D /* MoreVC.swift */; };
+		2C53463C28E718E500D1949D /* ViewControllerObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C53462C28E718E000D1949D /* ViewControllerObjC.m */; };
+		2C53463D28E718E500D1949D /* UIFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53462D28E718E000D1949D /* UIFactory.swift */; };
+		2C53463E28E718E500D1949D /* WorkoutsService+Live.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53462E28E718E000D1949D /* WorkoutsService+Live.swift */; };
+		2C53463F28E718E500D1949D /* WorkoutCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53462F28E718E100D1949D /* WorkoutCard.swift */; };
+		2C53464028E718E500D1949D /* RepositoryListRouterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53463028E718E300D1949D /* RepositoryListRouterDelegate.swift */; };
+		2C53464128E718E500D1949D /* UIViewController+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53463128E718E300D1949D /* UIViewController+SwiftUI.swift */; };
+		2C53464228E718E500D1949D /* WorkoutPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53463228E718E300D1949D /* WorkoutPlayerVC.swift */; };
+		2C53464328E718E500D1949D /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53463428E718E400D1949D /* Workout.swift */; };
+		2C53464428E718E500D1949D /* WorkoutDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53463528E718E400D1949D /* WorkoutDetail.swift */; };
+		2C53464528E718E500D1949D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53463628E718E400D1949D /* SceneDelegate.swift */; };
+		2C53464628E718E500D1949D /* WorkoutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53463828E718E500D1949D /* WorkoutsView.swift */; };
+		2C53464728E718E500D1949D /* WorkoutsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53463928E718E500D1949D /* WorkoutsViewModel.swift */; };
+		2C53464928E71A5C00D1949D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C53464828E71A5C00D1949D /* Info.plist */; };
 		2C8C069F28D4845100D31541 /* Details in Frameworks */ = {isa = PBXBuildFile; productRef = 2C8C069E28D4845100D31541 /* Details */; };
-		2C8C06A128D4C42500D31541 /* WorkoutCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8C06A028D4C42500D31541 /* WorkoutCard.swift */; };
 		2CC7FEED28D21CFB0089CA92 /* Search in Frameworks */ = {isa = PBXBuildFile; productRef = 2CC7FEEC28D21CFB0089CA92 /* Search */; };
-		2CC7FF2C28D23B4B0089CA92 /* UIFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7FF2B28D23B4B0089CA92 /* UIFactory.swift */; };
 		2CC7FF2E28D379660089CA92 /* Listing in Frameworks */ = {isa = PBXBuildFile; productRef = 2CC7FF2D28D379660089CA92 /* Listing */; };
-		2CD5B98E28C9FA2000B76BD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5B98D28C9FA2000B76BD6 /* AppDelegate.swift */; };
-		2CD5B99228C9FA7E00B76BD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5B99128C9FA7E00B76BD6 /* SceneDelegate.swift */; };
-		2CD5B9D028CA228200B76BD6 /* AppDelegate+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5B9CF28CA228200B76BD6 /* AppDelegate+Injection.swift */; };
 		2CD5B9D828CF17E300B76BD6 /* Resolver in Frameworks */ = {isa = PBXBuildFile; productRef = 2CD5B9D728CF17E300B76BD6 /* Resolver */; };
 		2CD5B9E028CF183D00B76BD6 /* CocoaLumberjack in Frameworks */ = {isa = PBXBuildFile; productRef = 2CD5B9DF28CF183D00B76BD6 /* CocoaLumberjack */; };
 		2CD5B9E228CF183D00B76BD6 /* CocoaLumberjackSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2CD5B9E128CF183D00B76BD6 /* CocoaLumberjackSwift */; };
@@ -47,12 +51,8 @@
 		2CD5BA0228CF1DEF00B76BD6 /* OCHamcrest in Frameworks */ = {isa = PBXBuildFile; productRef = 2CD5BA0128CF1DEF00B76BD6 /* OCHamcrest */; };
 		2CD5BA2128CF448000B76BD6 /* Rswift in Frameworks */ = {isa = PBXBuildFile; productRef = 2CD5BA2028CF448000B76BD6 /* Rswift */; };
 		2CD5BA2328CF460000B76BD6 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5BA2228CF460000B76BD6 /* R.generated.swift */; };
-		2CD5BA2628CF6CFC00B76BD6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CD5BA2528CF6CFC00B76BD6 /* Info.plist */; };
-		2CF8565928CF7947005F4CBD /* ViewControllerObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF8565828CF7947005F4CBD /* ViewControllerObjC.m */; };
 		2CF8565D28CF869A005F4CBD /* LabelObjectiveC in Frameworks */ = {isa = PBXBuildFile; productRef = 2CF8565C28CF869A005F4CBD /* LabelObjectiveC */; };
 		2CF8566128D07AB4005F4CBD /* LabelSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2CF8566028D07AB4005F4CBD /* LabelSwift */; };
-		F585378F1B5ABA4800DB2AD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F585378E1B5ABA4800DB2AD2 /* Assets.xcassets */; };
-		F58537921B5ABA4800DB2AD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58537901B5ABA4800DB2AD2 /* LaunchScreen.storyboard */; };
 		F58537A81B5ABA4800DB2AD2 /* MixedLanugageExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F58537A71B5ABA4800DB2AD2 /* MixedLanugageExampleUITests.m */; };
 /* End PBXBuildFile section */
 
@@ -101,34 +101,33 @@
 		2C2EE7D128BE5BA0008D3C38 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
 		2C2EE7D428BE5BA0008D3C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		2C2EE7D628BE5BA0008D3C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C2EE88828C201FE008D3C38 /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
-		2C2EE88A28C2020A008D3C38 /* MoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreVC.swift; sourceTree = "<group>"; };
-		2C2EE8DE28C237F7008D3C38 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
-		2C2EE8E528C5FBA6008D3C38 /* WorkoutsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsView.swift; sourceTree = "<group>"; };
-		2C2EE8E728C5FC25008D3C38 /* WorkoutsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsViewModel.swift; sourceTree = "<group>"; };
-		2C2EE8E928C5FC59008D3C38 /* WorkoutsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsService.swift; sourceTree = "<group>"; };
-		2C2EE8EB28C5FC8A008D3C38 /* WorkoutsService+Live.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WorkoutsService+Live.swift"; sourceTree = "<group>"; };
-		2C2EE8ED28C5FCB6008D3C38 /* WorkoutDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetail.swift; sourceTree = "<group>"; };
-		2C2EE8F128C5FE87008D3C38 /* WorkoutPlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutPlayerVC.swift; sourceTree = "<group>"; };
-		2C2EE8F328C5FEE4008D3C38 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
-		2C2EE8F928C60554008D3C38 /* UIViewController+SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+SwiftUI.swift"; sourceTree = "<group>"; };
-		2C4CCD8628D881CA005828D0 /* RepositoryListRouterDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListRouterDelegate.swift; sourceTree = "<group>"; };
-		2C8C06A028D4C42500D31541 /* WorkoutCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutCard.swift; sourceTree = "<group>"; };
+		2C53461C28E7188500D1949D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C53462028E7189000D1949D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C53462228E718CC00D1949D /* AppDelegate+Injection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Injection.swift"; sourceTree = "<group>"; };
+		2C53462328E718CC00D1949D /* HistoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
+		2C53462428E718CC00D1949D /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		2C53462528E718CC00D1949D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C53462A28E718E000D1949D /* WorkoutsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutsService.swift; sourceTree = "<group>"; };
+		2C53462B28E718E000D1949D /* MoreVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreVC.swift; sourceTree = "<group>"; };
+		2C53462C28E718E000D1949D /* ViewControllerObjC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerObjC.m; sourceTree = "<group>"; };
+		2C53462D28E718E000D1949D /* UIFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFactory.swift; sourceTree = "<group>"; };
+		2C53462E28E718E000D1949D /* WorkoutsService+Live.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WorkoutsService+Live.swift"; sourceTree = "<group>"; };
+		2C53462F28E718E100D1949D /* WorkoutCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutCard.swift; sourceTree = "<group>"; };
+		2C53463028E718E300D1949D /* RepositoryListRouterDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryListRouterDelegate.swift; sourceTree = "<group>"; };
+		2C53463128E718E300D1949D /* UIViewController+SwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+SwiftUI.swift"; sourceTree = "<group>"; };
+		2C53463228E718E300D1949D /* WorkoutPlayerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutPlayerVC.swift; sourceTree = "<group>"; };
+		2C53463328E718E400D1949D /* MixedLanugageExample-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MixedLanugageExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		2C53463428E718E400D1949D /* Workout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		2C53463528E718E400D1949D /* WorkoutDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutDetail.swift; sourceTree = "<group>"; };
+		2C53463628E718E400D1949D /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2C53463728E718E400D1949D /* ViewControllerObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerObjC.h; sourceTree = "<group>"; };
+		2C53463828E718E500D1949D /* WorkoutsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutsView.swift; sourceTree = "<group>"; };
+		2C53463928E718E500D1949D /* WorkoutsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutsViewModel.swift; sourceTree = "<group>"; };
+		2C53464828E71A5C00D1949D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CC7FEE528D20BE90089CA92 /* GithubTab */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = GithubTab; path = ../GithubTab; sourceTree = "<group>"; };
-		2CC7FF2B28D23B4B0089CA92 /* UIFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFactory.swift; sourceTree = "<group>"; };
-		2CD5B98D28C9FA2000B76BD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2CD5B99128C9FA7E00B76BD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2CD5B9CF28CA228200B76BD6 /* AppDelegate+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Injection.swift"; sourceTree = "<group>"; };
 		2CD5BA2228CF460000B76BD6 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		2CD5BA2428CF6BBA00B76BD6 /* MixObjcSwift */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MixObjcSwift; path = ../MixObjcSwift; sourceTree = "<group>"; };
-		2CD5BA2528CF6CFC00B76BD6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../MixObjcSwift/Tests/MixObjcSwiftTests/Info.plist; sourceTree = "<group>"; };
-		2CF8565728CF7944005F4CBD /* ViewControllerObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerObjC.h; sourceTree = "<group>"; };
-		2CF8565828CF7947005F4CBD /* ViewControllerObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerObjC.m; sourceTree = "<group>"; };
-		2CF8565E28CF87EF005F4CBD /* MixedLanugageExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MixedLanugageExample-Bridging-Header.h"; sourceTree = "<group>"; };
 		F585377F1B5ABA4800DB2AD2 /* MixedLanugageExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MixedLanugageExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F585378E1B5ABA4800DB2AD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F58537911B5ABA4800DB2AD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F58537931B5ABA4800DB2AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F58537981B5ABA4800DB2AD2 /* MixedLanugageExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixedLanugageExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58537A31B5ABA4800DB2AD2 /* MixedLanugageExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixedLanugageExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58537A71B5ABA4800DB2AD2 /* MixedLanugageExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixedLanugageExampleUITests.m; sourceTree = "<group>"; };
@@ -206,36 +205,48 @@
 			path = ShareAppExtension;
 			sourceTree = "<group>";
 		};
-		2C2EE8D228C20D41008D3C38 /* Shared */ = {
+		2C37FE6D28E7162E0019F487 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				2C2EE8F928C60554008D3C38 /* UIViewController+SwiftUI.swift */,
+				2C53463328E718E400D1949D /* MixedLanugageExample-Bridging-Header.h */,
+				2C53462B28E718E000D1949D /* MoreVC.swift */,
+				2C53463028E718E300D1949D /* RepositoryListRouterDelegate.swift */,
+				2C53463628E718E400D1949D /* SceneDelegate.swift */,
+				2C53462D28E718E000D1949D /* UIFactory.swift */,
+				2C53463128E718E300D1949D /* UIViewController+SwiftUI.swift */,
+				2C53463728E718E400D1949D /* ViewControllerObjC.h */,
+				2C53462C28E718E000D1949D /* ViewControllerObjC.m */,
+				2C53463428E718E400D1949D /* Workout.swift */,
+				2C53462F28E718E100D1949D /* WorkoutCard.swift */,
+				2C53463528E718E400D1949D /* WorkoutDetail.swift */,
+				2C53463228E718E300D1949D /* WorkoutPlayerVC.swift */,
+				2C53462A28E718E000D1949D /* WorkoutsService.swift */,
+				2C53462E28E718E000D1949D /* WorkoutsService+Live.swift */,
+				2C53463828E718E500D1949D /* WorkoutsView.swift */,
+				2C53463928E718E500D1949D /* WorkoutsViewModel.swift */,
+				2C53462528E718CC00D1949D /* AppDelegate.swift */,
+				2C53462228E718CC00D1949D /* AppDelegate+Injection.swift */,
+				2C53462428E718CC00D1949D /* CustomTabBarController.swift */,
+				2C53462328E718CC00D1949D /* HistoryVC.swift */,
 			);
-			name = Shared;
+			path = Sources;
 			sourceTree = "<group>";
 		};
-		2C2EE8E428C5FB93008D3C38 /* Workouts */ = {
+		2C37FE6E28E716390019F487 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2C8C06A028D4C42500D31541 /* WorkoutCard.swift */,
-				2C2EE8E528C5FBA6008D3C38 /* WorkoutsView.swift */,
-				2C2EE8E728C5FC25008D3C38 /* WorkoutsViewModel.swift */,
-				2C2EE8E928C5FC59008D3C38 /* WorkoutsService.swift */,
-				2C2EE8EB28C5FC8A008D3C38 /* WorkoutsService+Live.swift */,
-				2C2EE8ED28C5FCB6008D3C38 /* WorkoutDetail.swift */,
-				2C2EE8F128C5FE87008D3C38 /* WorkoutPlayerVC.swift */,
-				2C2EE8F328C5FEE4008D3C38 /* Workout.swift */,
+				2C53461E28E7189000D1949D /* Base.lproj */,
+				2C53461C28E7188500D1949D /* Assets.xcassets */,
 			);
-			name = Workouts;
+			path = Resources;
 			sourceTree = "<group>";
 		};
-		2CC7FF3328D37ABE0089CA92 /* Composition */ = {
+		2C53461E28E7189000D1949D /* Base.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				2CC7FF2B28D23B4B0089CA92 /* UIFactory.swift */,
-				2C4CCD8628D881CA005828D0 /* RepositoryListRouterDelegate.swift */,
+				2C53461F28E7189000D1949D /* LaunchScreen.storyboard */,
 			);
-			name = Composition;
+			path = Base.lproj;
 			sourceTree = "<group>";
 		};
 		F58537761B5ABA4800DB2AD2 = {
@@ -244,7 +255,6 @@
 				2CC7FEE528D20BE90089CA92 /* GithubTab */,
 				2CD5BA2428CF6BBA00B76BD6 /* MixObjcSwift */,
 				F58537811B5ABA4800DB2AD2 /* MixedLanugageExample */,
-				F585379B1B5ABA4800DB2AD2 /* MixedLanugageExampleTests */,
 				F58537A61B5ABA4800DB2AD2 /* MixedLanugageExampleUITests */,
 				2C2EE7CE28BE5BA0008D3C38 /* ShareAppExtension */,
 				F58537801B5ABA4800DB2AD2 /* Products */,
@@ -266,32 +276,12 @@
 		F58537811B5ABA4800DB2AD2 /* MixedLanugageExample */ = {
 			isa = PBXGroup;
 			children = (
-				2CC7FF3328D37ABE0089CA92 /* Composition */,
+				2C53464828E71A5C00D1949D /* Info.plist */,
+				2C37FE6E28E716390019F487 /* Resources */,
+				2C37FE6D28E7162E0019F487 /* Sources */,
 				2CD5BA2228CF460000B76BD6 /* R.generated.swift */,
-				2C2EE8E428C5FB93008D3C38 /* Workouts */,
-				2C2EE8D228C20D41008D3C38 /* Shared */,
-				F58537931B5ABA4800DB2AD2 /* Info.plist */,
-				F58537901B5ABA4800DB2AD2 /* LaunchScreen.storyboard */,
-				F585378E1B5ABA4800DB2AD2 /* Assets.xcassets */,
-				2CF8565728CF7944005F4CBD /* ViewControllerObjC.h */,
-				2CF8565828CF7947005F4CBD /* ViewControllerObjC.m */,
-				2C2EE88828C201FE008D3C38 /* HistoryVC.swift */,
-				2C2EE88A28C2020A008D3C38 /* MoreVC.swift */,
-				2C2EE8DE28C237F7008D3C38 /* CustomTabBarController.swift */,
-				2CD5B98D28C9FA2000B76BD6 /* AppDelegate.swift */,
-				2CD5B99128C9FA7E00B76BD6 /* SceneDelegate.swift */,
-				2CD5B9CF28CA228200B76BD6 /* AppDelegate+Injection.swift */,
-				2CF8565E28CF87EF005F4CBD /* MixedLanugageExample-Bridging-Header.h */,
 			);
 			path = MixedLanugageExample;
-			sourceTree = "<group>";
-		};
-		F585379B1B5ABA4800DB2AD2 /* MixedLanugageExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				2CD5BA2528CF6CFC00B76BD6 /* Info.plist */,
-			);
-			path = MixedLanugageExampleTests;
 			sourceTree = "<group>";
 		};
 		F58537A61B5ABA4800DB2AD2 /* MixedLanugageExampleUITests */ = {
@@ -479,8 +469,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F58537921B5ABA4800DB2AD2 /* LaunchScreen.storyboard in Resources */,
-				F585378F1B5ABA4800DB2AD2 /* Assets.xcassets in Resources */,
+				2C53462128E7189000D1949D /* LaunchScreen.storyboard in Resources */,
+				2C53461D28E7188500D1949D /* Assets.xcassets in Resources */,
+				2C53464928E71A5C00D1949D /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,7 +479,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CD5BA2628CF6CFC00B76BD6 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,25 +526,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CD5B9D028CA228200B76BD6 /* AppDelegate+Injection.swift in Sources */,
-				2CD5B99228C9FA7E00B76BD6 /* SceneDelegate.swift in Sources */,
-				2CD5B98E28C9FA2000B76BD6 /* AppDelegate.swift in Sources */,
-				2C4CCD8728D881CA005828D0 /* RepositoryListRouterDelegate.swift in Sources */,
-				2C2EE8EC28C5FC8A008D3C38 /* WorkoutsService+Live.swift in Sources */,
-				2C2EE8E628C5FBA6008D3C38 /* WorkoutsView.swift in Sources */,
-				2C2EE8F228C5FE87008D3C38 /* WorkoutPlayerVC.swift in Sources */,
-				2C2EE88928C201FE008D3C38 /* HistoryVC.swift in Sources */,
-				2C2EE8DF28C237F7008D3C38 /* CustomTabBarController.swift in Sources */,
-				2C2EE8FA28C60554008D3C38 /* UIViewController+SwiftUI.swift in Sources */,
-				2CF8565928CF7947005F4CBD /* ViewControllerObjC.m in Sources */,
-				2C2EE8EA28C5FC59008D3C38 /* WorkoutsService.swift in Sources */,
+				2C53462628E718CC00D1949D /* AppDelegate+Injection.swift in Sources */,
+				2C53464028E718E500D1949D /* RepositoryListRouterDelegate.swift in Sources */,
+				2C53464628E718E500D1949D /* WorkoutsView.swift in Sources */,
+				2C53463A28E718E500D1949D /* WorkoutsService.swift in Sources */,
+				2C53464128E718E500D1949D /* UIViewController+SwiftUI.swift in Sources */,
+				2C53462728E718CC00D1949D /* HistoryVC.swift in Sources */,
+				2C53463F28E718E500D1949D /* WorkoutCard.swift in Sources */,
+				2C53464728E718E500D1949D /* WorkoutsViewModel.swift in Sources */,
+				2C53463B28E718E500D1949D /* MoreVC.swift in Sources */,
+				2C53464528E718E500D1949D /* SceneDelegate.swift in Sources */,
+				2C53463C28E718E500D1949D /* ViewControllerObjC.m in Sources */,
+				2C53464328E718E500D1949D /* Workout.swift in Sources */,
+				2C53463D28E718E500D1949D /* UIFactory.swift in Sources */,
+				2C53462828E718CC00D1949D /* CustomTabBarController.swift in Sources */,
+				2C53462928E718CC00D1949D /* AppDelegate.swift in Sources */,
+				2C53464428E718E500D1949D /* WorkoutDetail.swift in Sources */,
+				2C53464228E718E500D1949D /* WorkoutPlayerVC.swift in Sources */,
 				2CD5BA2328CF460000B76BD6 /* R.generated.swift in Sources */,
-				2CC7FF2C28D23B4B0089CA92 /* UIFactory.swift in Sources */,
-				2C2EE8E828C5FC25008D3C38 /* WorkoutsViewModel.swift in Sources */,
-				2C2EE8F428C5FEE4008D3C38 /* Workout.swift in Sources */,
-				2C2EE88B28C2020A008D3C38 /* MoreVC.swift in Sources */,
-				2C2EE8EE28C5FCB6008D3C38 /* WorkoutDetail.swift in Sources */,
-				2C8C06A128D4C42500D31541 /* WorkoutCard.swift in Sources */,
+				2C53463E28E718E500D1949D /* WorkoutsService+Live.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,10 +592,10 @@
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
-		F58537901B5ABA4800DB2AD2 /* LaunchScreen.storyboard */ = {
+		2C53461F28E7189000D1949D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F58537911B5ABA4800DB2AD2 /* Base */,
+				2C53462028E7189000D1949D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

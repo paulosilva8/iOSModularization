@@ -1,0 +1,9 @@
+DEVELOPMENT_TEAM=5UTKWZN2P5
+INFOPLIST_FILE=MixedLanugageExampleUITests/Info.plist
+PRODUCT_BUNDLE_IDENTIFIER=com.gergelyorosz.MixedLanugageExampleUITests
+PRODUCT_NAME=$(TARGET_NAME)
+TEST_TARGET_NAME=MixedLanugageExample
+USES_XCTRUNNER=YES
+
+LD_RUNPATH_SEARCH_PATHS[config=Debug]=$(inherited) @executable_path/Frameworks @loader_path/Frameworks
+LD_RUNPATH_SEARCH_PATHS[config=Release]=$(inherited) @executable_path/Frameworks @loader_path/Frameworks

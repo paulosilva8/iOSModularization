@@ -1,0 +1,2 @@
+
+SWIFT_OBJC_BRIDGING_HEADER = "MixedLanugageExample/MixedLanugageExample/Sources/Headers/MixedLanugageExample-Bridging-Header.h"

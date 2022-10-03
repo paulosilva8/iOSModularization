@@ -12,7 +12,9 @@ import Utilities
 
 final class LoadingCell: UITableViewCell {
     private lazy var errorIcon: UIImageView = {
-        let imageView = UIImageView(image: R.image.listing_xmark())
+        
+        let imageView = UIImageView(image: UIImage(systemName: "xmark_octagon_fill"))
+        //R.image.listing_xmark())
         //let imageView = UIImageView(image: UIImage(contentsOfFile: ""))
         imageView.tintColor = .red
         imageView.isHidden = true

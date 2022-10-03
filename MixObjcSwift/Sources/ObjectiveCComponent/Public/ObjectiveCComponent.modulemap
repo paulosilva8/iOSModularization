@@ -1,0 +1,4 @@
+module ObjectiveCComponent {
+    umbrella "/Users/SIP1OVR/Documents/GitHub/iOSModularization/MixObjcSwift/Sources/ObjectiveCComponent/Public"
+    export *
+}

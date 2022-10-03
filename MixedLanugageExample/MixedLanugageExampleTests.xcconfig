@@ -1,0 +1,13 @@
+BUNDLE_LOADER=$(TEST_HOST)
+CLANG_ENABLE_MODULES=YES
+DEFINES_MODULE=YES
+DEVELOPMENT_TEAM=5UTKWZN2P5
+INFOPLIST_FILE=MixedLanugageExampleTests/Info.plist
+PRODUCT_BUNDLE_IDENTIFIER=com.gergelyorosz.MixedLanugageExampleTests
+PRODUCT_NAME=$(TARGET_NAME)
+SWIFT_OBJC_BRIDGING_HEADER=MixedLanugageExampleTests/MixedLanugageExampleTests-Bridging-Header.h
+TEST_HOST=$(BUILT_PRODUCTS_DIR)/MixedLanugageExample.app/MixedLanugageExample
+
+LD_RUNPATH_SEARCH_PATHS[config=Debug]=$(inherited) @executable_path/Frameworks @loader_path/Frameworks
+LD_RUNPATH_SEARCH_PATHS[config=Release]=$(inherited) @executable_path/Frameworks @loader_path/Frameworks
+SWIFT_OPTIMIZATION_LEVEL[config=Debug]=-Onone
